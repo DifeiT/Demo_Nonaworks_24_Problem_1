@@ -1,0 +1,1694 @@
+{
+    "BlastOutput2": {
+        "report": {
+            "program": "blastn",
+            "version": "BLASTN 2.16.0+",
+            "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+            "search_target": {
+                "db": "core_nt"
+            },
+            "params": {
+                "expect": 10,
+                "sc_match": 2,
+                "sc_mismatch": -3,
+                "gap_open": 5,
+                "gap_extend": 2,
+                "filter": "L;m;"
+            },
+            "results": {
+                "search": {
+                    "query_id": "BE037100.1",
+                    "query_title": "MP14H09 MP Mesembryanthemum crystallinum cDNA 5' similar to cold acclimation protein, mRNA sequence",
+                    "query_len": 1111,
+                    "query_masking": [
+                        {
+                            "from": 797,
+                            "to": 1110
+                        }
+                    ],
+                    "hits": [
+                        {
+                            "num": 1,
+                            "description": [
+                                {
+                                    "id": "gi|1219041180|ref|XM_021875076.1|",
+                                    "accession": "XM_021875076",
+                                    "title": "PREDICTED: Chenopodium quinoa cold-regulated 413 plasma membrane protein 2-like (LOC110697660), mRNA",
+                                    "taxid": 63459,
+                                    "sciname": "Chenopodium quinoa"
+                                }
+                            ],
+                            "len": 1173,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 435.898,
+                                    "score": 482,
+                                    "evalue": 5.02545e-117,
+                                    "identity": 473,
+                                    "query_from": 59,
+                                    "query_to": 678,
+                                    "query_strand": "Plus",
+                                    "hit_from": 278,
+                                    "hit_to": 901,
+                                    "hit_strand": "Plus",
+                                    "align_len": 624,
+                                    "gaps": 4,
+                                    "qseq": "ACAGAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGT--CATTACGGG-TTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCT-GTTTATGGTCATCTTCATGATGTA",
+                                    "hseq": "ACCGAAAATGGGCAGAGGAGTGAATTATATGGCAATGACACCTGAGCAACTAGCCGCGGCCAATTTGATCAACTCCGACATCAATGAGCTCAAGATCGTTGTGATGACACTCATTCATGATGCTTCTAGACTCGGCGGCACCTCAGGATTTGGAACTCATTTTCTTAGATGGCTAGCCTCTCTTGCTGCTATTTACTTGTTGATCCTGGATCGCACAAATTGGAGAACCAACATGCTCACATCACTCTTAGTACCATACATATTCCTCAGTCTTCCTTCTGGCCCTTTTTACCTTCTTAGGGGTGAGGTTGGGAAATGGATTGCTTTTGTCGCGGTTGTGCTAAGGCTATTCTTCCACCGCCGCTTCCCAGAATGGTTAGAGATGCCAGGATCACTGATACTATTGTTGGTGGTAGCTCCAGAATTGCTAGCACACAAATTAAAGGATAGTTGGATGGGAGTTGTAATTCTGTTAATCATAGGGTGTTATTTGCTGCAAGAACATATCAGGGCAACTGGTGGTTTAAGAAATTCGTTTACTCAAAGCCATGGAATTTCCTATACGATTGGGCTGCTTCTCTTATTGGCTTACCCAATTTGGTCCATGGTTATTTTCATGATTTA",
+                                    "midline": "|| ||||||||| |||| | |||| ||  |||| |||| | |||| ||| | |||| ||| ||| ||||| | ||||| ||||||||||| || || |     ||||  |||||  ||||||||  ||  |||||   ||   | || ||||| |||||||| || | |||||| ||||  ||||| |||||||||||||||||  ||||||| ||||| |||||||||||||||||||| ||||| ||||| || |||||||||||||||||||| || || || ||| | ||  | || || ||||| ||||||||||||||  |  | || || ||| ||||||| |||||| |||| |  |||||||  ||| | || ||||| |||||  |||||||  |  ||||||| || ||||| ||  |  |||||||| | ||||| || ||||| ||| ||| |||| || ||   ||||||||| |  || |||||||||||||||| || |||||||| ||  | ||||| || || || ||||| |||| ||   | || ||||||||  | ||  || ||||||||||  | | ||  ||||| || |||||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 2,
+                            "description": [
+                                {
+                                    "id": "gi|2514617377|ref|XM_021992092.2|",
+                                    "accession": "XM_021992092",
+                                    "title": "PREDICTED: Spinacia oleracea cold-regulated 413 plasma membrane protein 2-like (LOC110787470), mRNA",
+                                    "taxid": 3562,
+                                    "sciname": "Spinacia oleracea"
+                                }
+                            ],
+                            "len": 752,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 418.766,
+                                    "score": 463,
+                                    "evalue": 1.34852e-111,
+                                    "identity": 447,
+                                    "query_from": 63,
+                                    "query_to": 649,
+                                    "query_strand": "Plus",
+                                    "hit_from": 42,
+                                    "hit_to": 631,
+                                    "hit_strand": "Plus",
+                                    "align_len": 590,
+                                    "gaps": 3,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGG---TCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCC",
+                                    "hseq": "AAAATGGGTAGACGAATGGATTATTTGGCGATGAAAACCGAGCAATTAGCCGCGGCCAATTTGATCGATTCCGATATCAACGAGCTGAAGATCGCCGTGATGGCGCTCGTTCATGATACTACTACGCTCGGCGGTCAATCGGGATTCGGAACTCATTTTCTCCAATGGCTCGCCTCATTTTCTGCTATTTACTTGTTAATCCTTGATCGAACACATTGGAGAAGCAACATGCTTACTTCACTTTTAGTACCATACATTTTCCTAAGTCTCCCATCTGGCCCCTTTCACCTTTTAAGAGGTGAGGTTGGGAAATGGATTGCTTTTGTCTCGGTTGTGCTAAGGTTATTCTTCCACCGCAGTTTCCCAGAATGGTTGGAAATGCCAGTATGTTTGATACTATTATTGGTGGTAGCTCCAGAAATGCTTGCAATATCAATGAAAGAGAGTTGGATGGGAGTTGTAGTTGTGTTAATCATAGGATGTTACCTTCTACAAGAGCATATTAGGGCAACTGGTGGTTTAAGGAATTCTTTCACACAAAGACATGGGATTTCCAACACAATTGGGCTTCTTCTCTTGTTGGCTTACCC",
+                                    "midline": "|||||||| |||  |||| | || ||||| |||||||| || ||||| |||| ||| ||| ||||||||||||||||||| ||||| || || ||    |||  |||| |  ||||| ||| || ||||||   ||| |  || || || |||||||| ||| ||||||||||||   || | |||||||||||||| ||  | ||||||||| | ||||||| ||||||||| || ||||||||||| || ||||| ||||| ||||| ||||| || || ||||| || || ||||| ||||| ||||||||||||||  |  |  | || ||| ||||| | |||||| ||||   ||||||||  ||| |||||||||| | ||  ||||||||  |  ||||||| || |||||  |  || ||     | |||| ||||| ||||| ||| ||| | || || ||   ||||| ||| ||||  | ||||| ||||| || || |||||||| ||  ||||||| |||||||| || || || | ||  ||||||||||||||| | ||  |  ||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 3,
+                            "description": [
+                                {
+                                    "id": "gi|2518612504|ref|XM_010682658.3|",
+                                    "accession": "XM_010682658",
+                                    "title": "PREDICTED: Beta vulgaris subsp. vulgaris cold-regulated 413 plasma membrane protein 2 (LOC104895996), mRNA",
+                                    "taxid": 3555,
+                                    "sciname": "Beta vulgaris subsp. vulgaris"
+                                }
+                            ],
+                            "len": 621,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 400.732,
+                                    "score": 443,
+                                    "evalue": 3.61857e-106,
+                                    "identity": 448,
+                                    "query_from": 87,
+                                    "query_to": 679,
+                                    "query_strand": "Plus",
+                                    "hit_from": 25,
+                                    "hit_to": 621,
+                                    "hit_strand": "Plus",
+                                    "align_len": 597,
+                                    "gaps": 4,
+                                    "qseq": "TTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTC---GGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCT-GTTTATGGTCATCTTCATGATGTAG",
+                                    "hseq": "TTGGCCATGAAAACTGAGCAAATGGCGTTGGCTAATTTGATAGATTATGATATGAATGAACTTAAGATCGCTTTGACATCGCTAATTCATGATGCTGCTAGACTCAATGGTCACGGAGGATTCGGAACTCATTTTCTCAAATGGCTTGCTTCATTTGCTGCTATTTATTTGCTGATCCTGGATCGAACAAATTGGAGAACAAACATGCTAACATCACTTTTAGTCCCTTACATATTCTTCAGCCTTCCCACAGGCATCTTTCACCTTTTAAGGGGCGAAGTTGGTAAGTGGATTGCTTTTATCGCAGTTGTACTGAGGTTATTTTTCCACCGCCATTTCCCAGATTGGTTGGAAATGCCAGGATGTTTGATACTGTTGTTGGTGGTCGCTCCCAATTTATTTGCTTATACAATGAAGGATGACTGGTTGGGGGTTGTAGTTTTGTTAATCATAGGGTGTTATTTGCTACAAGAGCATATAAGAGCGACGGGTGGTCTCAGGAATTCCTTCACTCAAACCCATGGTATTTCTAATACAATTGGGCTTCTCCTTCTATTGGCTTACCCCATTTGGTCGATATTCATATTCATGATGTAG",
+                                    "midline": "||||||||||||||||| ||| ||||  |||||||| |||| ||||  ||||| ||||| ||||| || ||    |    ||| ||  ||||||||  ||  |||   |||||    || || || |||||||| ||||||||||| || |   |||| |||||||| ||| ||||  ||||||||||||| |||||||| |||||||| || |||||||||||||||||||||||| |||| |||||  | ||    ||||| || || || ||||| || || || ||||||||  | || ||||| ||  | ||| | || ||| |||| |||||||||| |||| |||||||||| ||||  ||||||||  |  ||||||| || ||  | || ||| |  | | | |||||||   |||| | ||  ||| | || || ||   ||||||||| |  || | ||||| ||||| ||||| || |||||  |  ||||||||||||| || | ||| || | || ||| |||||||||||| |||||||| ||||||||||  | | ||  ||  |||| ||||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 4,
+                            "description": [
+                                {
+                                    "id": "gi|2031543140|ref|XM_041168865.1|",
+                                    "accession": "XM_041168865",
+                                    "title": "PREDICTED: Juglans microcarpa x Juglans regia cold-regulated 413 plasma membrane protein 2-like (LOC121265293), mRNA",
+                                    "taxid": 2249226,
+                                    "sciname": "Juglans microcarpa x Juglans regia"
+                                }
+                            ],
+                            "len": 1020,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 398.929,
+                                    "score": 441,
+                                    "evalue": 1.26301e-105,
+                                    "identity": 448,
+                                    "query_from": 65,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 254,
+                                    "hit_to": 838,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 10,
+                                    "qseq": "AATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AATGGGGAG-GAA--GGATAATTTGGCCATGAAAACTGATCC---GGCCACGGCGGATTTGATCGACTCTGATAACAAAGAACTCAAGATCGCCGCAAAGAGGCTCATCAATCATGCCACTAAGCTTGGTGGCCTCGGCTTTGGGACTTCTTTTCTCAAATGGGTCGCTTCCTTCGCTGCGATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCGGTGTTGTTCAATTTTTTCAGAGGAGAGGTAGGGAGATGGATTGCTTTCATCGCAGTTATACTAAGGCTTTTCTTCCCGCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCTTGGTTGTGGCTCCCAGCTTCTTTGCACACACCTTGAAGGATAGCTGGGTTGGTATTGTGA-TATGCCTTATC-ATTGGTTGTTACCTACTGCAAGAGCACATCCGAGCATCTGGTGGATTCAGAAATTCCTTCACTCAAACCCATGGAATATCGAACACGGTTGGCATTATCCTTCTGTTAGTCTATCCTGTATG",
+                                    "midline": "||||||||| |||  | |  | |||||||||||||||||||    ||||  |||  || ||||||| || |||| ||| || || || || ||  ||| ||||||||||||| |||| | || ||| |||     ||| ||||| |||  ||| ||||||||| |||| | | | || || ||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | |   ||  || | |||||||| ||||| |||| |||||||||  |||| |||||  |  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || ||| |||| ||||| ||   ||||||| ||||||   ||||||| |||||| | || ||||  | ||||   || | || || ||| ||||  ||||||| || ||| ||||  ||||||| ||  | ||||||||||| || | ||| ||||  |  |||||  ||||  ||||||||||  | |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 5,
+                            "description": [
+                                {
+                                    "id": "gi|2618480339|ref|XM_048479995.2|",
+                                    "accession": "XM_048479995",
+                                    "title": "PREDICTED: Ziziphus jujuba cold-regulated 413 plasma membrane protein 2 (LOC107424728), mRNA",
+                                    "taxid": 326968,
+                                    "sciname": "Ziziphus jujuba"
+                                }
+                            ],
+                            "len": 1028,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 397.126,
+                                    "score": 439,
+                                    "evalue": 4.40832e-105,
+                                    "identity": 448,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 169,
+                                    "hit_to": 755,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 12,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCAT--TTCATC-TGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGGCTATGAGAACTGATCCA---GCCACGGCTGACTTGATAAATTCTGATATCAATGAGCTTAAGGTTGCAGCCAAGAGGCTTTTCAATGATGCCTCTAAGCTTGGTGGTCTGGGTTTTGGCACTTCTTTTCTCAAATGGGTCGCCTCTTTCGCTGCCATTTATTTGTTGATATTGGATCGAACAAACTGGAGAACAAATATGCTTACTTCACTTTTAGTTCCTTATATCTTCTTCAGTCTTC---CCGCAGCATTGTTCAACTTGCTGAGAGGAGAGGTGGGAAAATGGATTGCTTTCATTGCAGTTGTATTAAGGCTTTTCTTCCCACGACATTTCCCAGATTGGTTGGAGATGCCAGGATCATTGATTCTTCTTCTGGTCGTGGCTCCGAACTTCTTTGCACACACATTGAGGGACAGCTGGGTTAGTATACTGATCTGCCTCTTCATCGGTTGTTACCTGCTTCAAGAACACATCAGGGCATCTGGGGGATTCAGAAATTCATTCACACAGAGCCATGGAATTTCAAACACCCTCGGTATTATCTTTCTGATAGTCTATCCTGTCTG",
+                                    "midline": "|||||||||||    ||| |||  ||||| |||| |||||||| |   |||  |||| |  ||||  |||| |||||||||||||||||  | ||| | | ||||||  ||||||||||   || ||| |||  |   || |||||||||  ||| ||||||||| ||||||   | || || ||||| |||||||||||||||||||||||||||||||| || ||||| || ||||||||||| ||||| || ||| |||||||||   |||   |||  |||| | || | ||||| ||||| || |||||||||||  |||||||||| || |||||||| ||||||   || |||||||||| |||| |||| ||||| ||||| ||||| || || ||||| ||||| ||  |||||||| |||||| | ||| ||| |||||| |  | ||    ||     |    || || ||| ||||| | |||||||| ||||| ||  |||| || ||  | ||||| |||||||||||||| |||| ||  |||||  | ||  ||||| ||||  | |  || ||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 6,
+                            "description": [
+                                {
+                                    "id": "gi|2082357255|ref|XM_043119049.1|",
+                                    "accession": "XM_043119049",
+                                    "title": "PREDICTED: Carya illinoinensis cold-regulated 413 plasma membrane protein 2-like (LOC122306609), transcript variant X2, mRNA",
+                                    "taxid": 32201,
+                                    "sciname": "Carya illinoinensis"
+                                }
+                            ],
+                            "len": 1036,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 392.617,
+                                    "score": 434,
+                                    "evalue": 5.37044e-104,
+                                    "identity": 446,
+                                    "query_from": 66,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 246,
+                                    "hit_to": 829,
+                                    "hit_strand": "Plus",
+                                    "align_len": 592,
+                                    "gaps": 10,
+                                    "qseq": "ATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "ATGGGGAG-GAA--GGATTATTTGGCCATGAAAACTGATCC---GGCCACGGCGGATTTGATCGACTCTGATATCAAAGAACTCAAGATCGCCGCAAAGAGGCTCATCACTCATGCCACTAAGCTTGGTGGCCTCGGCTTTGGGACTTCTTTTCTCAAATGGGTCGCTTCCTTCGCTGCAATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCGGTGTTGTTCAATTTTTTCAGAGGAGAGGTAGGGAGATGGATTGCTTTCATCGCAGTTATACTAAGGCTTTTCTTCCCGCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCCTGGTTGTGGCTCCCAGCTTCTTTGCACACACCTTGAAGGATAGCTGGGTTGGTGTCGTGA-TATGCCTTATC-ATTGGTTGTTACCTATTGCAAGAGCACATCCGAGCTTCTGGTGGATTCAGAAATTCCTTCACTCAAACCCATGGAATATCGAACACGGTTGGCATTATCGTTCTGTTAGTCTATCCTGTATG",
+                                    "midline": "|||||||| |||  | | || |||||||||||||||||||    ||||  |||  || ||||||| || |||||||| || || || || ||  ||| ||||||||||| | |||| | || ||| |||     ||| ||||| |||  ||| ||||||||| |||| | | | || || ||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | |   ||  || | |||||||| ||||| |||| |||||||||  |||| |||||  |  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||   ||||||| ||||||   ||||||| |||||| | ||  | |  | ||||   || | || || ||| ||||  ||||||| || ||| ||||  ||||||| ||  | ||||||||||| || | ||| ||||  |  |||||  ||||  ||||| ||||  | |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 7,
+                            "description": [
+                                {
+                                    "id": "gi|2082357253|ref|XM_043119041.1|",
+                                    "accession": "XM_043119041",
+                                    "title": "PREDICTED: Carya illinoinensis cold-regulated 413 plasma membrane protein 2-like (LOC122306609), transcript variant X1, mRNA",
+                                    "taxid": 32201,
+                                    "sciname": "Carya illinoinensis"
+                                }
+                            ],
+                            "len": 1020,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 392.617,
+                                    "score": 434,
+                                    "evalue": 5.37044e-104,
+                                    "identity": 446,
+                                    "query_from": 66,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 230,
+                                    "hit_to": 813,
+                                    "hit_strand": "Plus",
+                                    "align_len": 592,
+                                    "gaps": 10,
+                                    "qseq": "ATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "ATGGGGAG-GAA--GGATTATTTGGCCATGAAAACTGATCC---GGCCACGGCGGATTTGATCGACTCTGATATCAAAGAACTCAAGATCGCCGCAAAGAGGCTCATCACTCATGCCACTAAGCTTGGTGGCCTCGGCTTTGGGACTTCTTTTCTCAAATGGGTCGCTTCCTTCGCTGCAATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCGGTGTTGTTCAATTTTTTCAGAGGAGAGGTAGGGAGATGGATTGCTTTCATCGCAGTTATACTAAGGCTTTTCTTCCCGCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCCTGGTTGTGGCTCCCAGCTTCTTTGCACACACCTTGAAGGATAGCTGGGTTGGTGTCGTGA-TATGCCTTATC-ATTGGTTGTTACCTATTGCAAGAGCACATCCGAGCTTCTGGTGGATTCAGAAATTCCTTCACTCAAACCCATGGAATATCGAACACGGTTGGCATTATCGTTCTGTTAGTCTATCCTGTATG",
+                                    "midline": "|||||||| |||  | | || |||||||||||||||||||    ||||  |||  || ||||||| || |||||||| || || || || ||  ||| ||||||||||| | |||| | || ||| |||     ||| ||||| |||  ||| ||||||||| |||| | | | || || ||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | |   ||  || | |||||||| ||||| |||| |||||||||  |||| |||||  |  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||   ||||||| ||||||   ||||||| |||||| | ||  | |  | ||||   || | || || ||| ||||  ||||||| || ||| ||||  ||||||| ||  | ||||||||||| || | ||| ||||  |  |||||  ||||  ||||| ||||  | |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 8,
+                            "description": [
+                                {
+                                    "id": "gi|1882610309|ref|XM_018970776.2|",
+                                    "accession": "XM_018970776",
+                                    "title": "PREDICTED: Juglans regia cold-regulated 413 plasma membrane protein 2 (LOC108995251), transcript variant X1, mRNA",
+                                    "taxid": 51240,
+                                    "sciname": "Juglans regia"
+                                }
+                            ],
+                            "len": 1025,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 389.011,
+                                    "score": 430,
+                                    "evalue": 6.54253e-103,
+                                    "identity": 450,
+                                    "query_from": 65,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 246,
+                                    "hit_to": 842,
+                                    "hit_strand": "Plus",
+                                    "align_len": 602,
+                                    "gaps": 16,
+                                    "qseq": "AATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATT---------GGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AATGGGGAG-GAA--GGATTATTTGGCCATGAAAACTGATCCGGCCACGGCCACGGCCACGGCGGATTTGATCGACTCTGATAACAAAGAACTCAAGATCGCCGCAAAGAGGCTCATCAATCATGCCACTAAGCTTGGTGGCCTCGGCTTTGGGACTTCTTTTCTCAAATGGGTCGCTTCCTTCGCTGCAATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCGGTGTTGTTCAATTTTTTCAGAGGAGAGGTAGGGAGATGGATTGCTTTCATTGCAGTTATACTAAGGCTTTTCTTCCCGCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCCTGGTTGTGGCTCCCAGCTTCTTTGCACACACCTTGAAGGATAGCTGGGTTGGTATCGTGA-TATGCCTTATC-ATTGGTTGTTACCTACTGCAAGAGCACATCCGAGCATCTGGTGGATTCAGAAATTCCTTCACTCAAACCCATGGAATATCGAACACGGTTGGCATTATCCTTCTGTTAGTCTATCCTGTATG",
+                                    "midline": "||||||||| |||  | | || |||||||||||||||||||             ||||  |||  || ||||||| || |||| ||| || || || || ||  ||| ||||||||||||| |||| | || ||| |||     ||| ||||| |||  ||| ||||||||| |||| | | | || || ||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | |   ||  || | |||||||| ||||| |||| |||||||||  ||||||||||  |  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||   ||||||| ||||||   ||||||| |||||| | || || |  | ||||   || | || || ||| ||||  ||||||| || ||| ||||  ||||||| ||  | ||||||||||| || | ||| ||||  |  |||||  ||||  ||||||||||  | |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 9,
+                            "description": [
+                                {
+                                    "id": "gi|1882610310|ref|XM_035691634.1|",
+                                    "accession": "XM_035691634",
+                                    "title": "PREDICTED: Juglans regia cold-regulated 413 plasma membrane protein 2 (LOC108995251), transcript variant X2, mRNA",
+                                    "taxid": 51240,
+                                    "sciname": "Juglans regia"
+                                }
+                            ],
+                            "len": 909,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 389.011,
+                                    "score": 430,
+                                    "evalue": 6.54253e-103,
+                                    "identity": 450,
+                                    "query_from": 65,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 130,
+                                    "hit_to": 726,
+                                    "hit_strand": "Plus",
+                                    "align_len": 602,
+                                    "gaps": 16,
+                                    "qseq": "AATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATT---------GGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AATGGGGAG-GAA--GGATTATTTGGCCATGAAAACTGATCCGGCCACGGCCACGGCCACGGCGGATTTGATCGACTCTGATAACAAAGAACTCAAGATCGCCGCAAAGAGGCTCATCAATCATGCCACTAAGCTTGGTGGCCTCGGCTTTGGGACTTCTTTTCTCAAATGGGTCGCTTCCTTCGCTGCAATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCGGTGTTGTTCAATTTTTTCAGAGGAGAGGTAGGGAGATGGATTGCTTTCATTGCAGTTATACTAAGGCTTTTCTTCCCGCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCCTGGTTGTGGCTCCCAGCTTCTTTGCACACACCTTGAAGGATAGCTGGGTTGGTATCGTGA-TATGCCTTATC-ATTGGTTGTTACCTACTGCAAGAGCACATCCGAGCATCTGGTGGATTCAGAAATTCCTTCACTCAAACCCATGGAATATCGAACACGGTTGGCATTATCCTTCTGTTAGTCTATCCTGTATG",
+                                    "midline": "||||||||| |||  | | || |||||||||||||||||||             ||||  |||  || ||||||| || |||| ||| || || || || ||  ||| ||||||||||||| |||| | || ||| |||     ||| ||||| |||  ||| ||||||||| |||| | | | || || ||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | |   ||  || | |||||||| ||||| |||| |||||||||  ||||||||||  |  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||   ||||||| ||||||   ||||||| |||||| | || || |  | ||||   || | || || ||| ||||  ||||||| || ||| ||||  ||||||| ||  | ||||||||||| || | ||| ||||  |  |||||  ||||  ||||||||||  | |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 10,
+                            "description": [
+                                {
+                                    "id": "gi|1350315636|ref|XM_006425716.2|",
+                                    "accession": "XM_006425716",
+                                    "title": "PREDICTED: Citrus clementina cold-regulated 413 plasma membrane protein 2 (LOC18037141), transcript variant X2, mRNA",
+                                    "taxid": 85681,
+                                    "sciname": "Citrus x clementina"
+                                }
+                            ],
+                            "len": 881,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 120,
+                                    "hit_to": 708,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 11,
+                            "description": [
+                                {
+                                    "id": "gi|1350315638|ref|XM_006425719.2|",
+                                    "accession": "XM_006425719",
+                                    "title": "PREDICTED: Citrus clementina cold-regulated 413 plasma membrane protein 2 (LOC18037141), transcript variant X3, mRNA",
+                                    "taxid": 85681,
+                                    "sciname": "Citrus x clementina"
+                                }
+                            ],
+                            "len": 893,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 132,
+                                    "hit_to": 720,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 12,
+                            "description": [
+                                {
+                                    "id": "gi|2395983798|ref|XM_006466623.4|",
+                                    "accession": "XM_006466623",
+                                    "title": "PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 2 (LOC102620025), transcript variant X3, mRNA",
+                                    "taxid": 2711,
+                                    "sciname": "Citrus sinensis"
+                                }
+                            ],
+                            "len": 1052,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 268,
+                                    "hit_to": 856,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 13,
+                            "description": [
+                                {
+                                    "id": "gi|1350315641|ref|XM_024180293.1|",
+                                    "accession": "XM_024180293",
+                                    "title": "PREDICTED: Citrus clementina cold-regulated 413 plasma membrane protein 2 (LOC18037141), transcript variant X4, mRNA",
+                                    "taxid": 85681,
+                                    "sciname": "Citrus x clementina"
+                                }
+                            ],
+                            "len": 868,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 107,
+                                    "hit_to": 695,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 14,
+                            "description": [
+                                {
+                                    "id": "gi|2395983800|ref|XM_006466626.4|",
+                                    "accession": "XM_006466626",
+                                    "title": "PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 2 (LOC102620025), transcript variant X5, mRNA",
+                                    "taxid": 2711,
+                                    "sciname": "Citrus sinensis"
+                                }
+                            ],
+                            "len": 913,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 129,
+                                    "hit_to": 717,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 15,
+                            "description": [
+                                {
+                                    "id": "gi|2395983796|ref|XM_025094967.2|",
+                                    "accession": "XM_025094967",
+                                    "title": "PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 2 (LOC102620025), transcript variant X1, mRNA",
+                                    "taxid": 2711,
+                                    "sciname": "Citrus sinensis"
+                                }
+                            ],
+                            "len": 980,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 196,
+                                    "hit_to": 784,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 16,
+                            "description": [
+                                {
+                                    "id": "gi|2395983797|ref|XM_006466624.4|",
+                                    "accession": "XM_006466624",
+                                    "title": "PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 2 (LOC102620025), transcript variant X2, mRNA",
+                                    "taxid": 2711,
+                                    "sciname": "Citrus sinensis"
+                                }
+                            ],
+                            "len": 968,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 184,
+                                    "hit_to": 772,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 17,
+                            "description": [
+                                {
+                                    "id": "gi|1204884098|ref|XM_021445554.1|",
+                                    "accession": "XM_021445554",
+                                    "title": "PREDICTED: Herrania umbratica cold-regulated 413 plasma membrane protein 2-like (LOC110429488), mRNA",
+                                    "taxid": 108875,
+                                    "sciname": "Herrania umbratica"
+                                }
+                            ],
+                            "len": 905,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 17,
+                                    "hit_to": 602,
+                                    "hit_strand": "Plus",
+                                    "align_len": 594,
+                                    "gaps": 10,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGT-TCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGA---ATGGACTATTTGGCTATGAAAACAGATCCTGTAGCAGAAG---ATTTGATCAGTTCTGATATGAATGAGCTGAAGCTGGCTGCAAAGAAGTTGATCAATGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCCTCATTTGCTGCTATTTATTTGTTAATCCTAGACCGAACAAACTGGAGAACAAACATGTTGACTTCACTTCTGATACCTTACATCTTCTTTAGTCTTCC-TTCGGTGCTTTTCAACTTTCTAAGGGGAGAGGTTGGAAAATGGATCGCATTCATTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCCGGATCATTGATTCTTCTCCTGGTTGTGGCTCCAAACTTCTTTGCGCACACCTTGAAGGACAGCTGGGTCGGTGTTTTGA-TATGCCTCCTCATTGGTTGTTACTTGCTGCAAGAGCACATCCGGGCCTCGGGTGGATTCAGGAATTCCTTCACTCAGAGCCATGGAATATCAAACACCGTTGGCATTATCCTTCTGTTAGTCTACCCTGTCTG",
+                                    "midline": "|||||||||||   ||| | || ||||| |||||||| ||||   | || |  |   || |||||  ||| ||||| |||||||| ||  ||||  ||| || | | ||||||||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | ||||   |||| |||||||| ||||| ||  | || ||||||||||||||||| |||||| | || |||||| |  | |||||||| ||| | |||||||| | |||  | ||||| || | | || || ||||| || |||||||| ||  |||||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||| |||||||| | ||||   ||||||| |||||| ||||  ||   | ||||  |    || || ||| || || ||||||| || ||| | ||| | ||||| ||  ||||||||||||| |||||||| ||||  |  |||||  ||||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 18,
+                            "description": [
+                                {
+                                    "id": "gi|1350315634|ref|XM_006425717.2|",
+                                    "accession": "XM_006425717",
+                                    "title": "PREDICTED: Citrus clementina cold-regulated 413 plasma membrane protein 2 (LOC18037141), transcript variant X1, mRNA",
+                                    "taxid": 85681,
+                                    "sciname": "Citrus x clementina"
+                                }
+                            ],
+                            "len": 952,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 191,
+                                    "hit_to": 779,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 19,
+                            "description": [
+                                {
+                                    "id": "gi|2395983799|ref|XM_006466625.3|",
+                                    "accession": "XM_006466625",
+                                    "title": "PREDICTED: Citrus sinensis cold-regulated 413 plasma membrane protein 2 (LOC102620025), transcript variant X4, mRNA",
+                                    "taxid": 2711,
+                                    "sciname": "Citrus sinensis"
+                                }
+                            ],
+                            "len": 978,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 373.682,
+                                    "score": 413,
+                                    "evalue": 5.02989e-98,
+                                    "identity": 443,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 194,
+                                    "hit_to": 782,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCT--CGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTT--CAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGAT---TGAATTATTTGGCTATGAAAACTGATGATCAGGTTGCAGCAGAGTTGATCAGCTCTGATTTCAATGAGCTTAAGATTGCTGCAAAAAAGCTCGTCAATGATGCAACCAGGCTTGGGGGCCTT--GGCTTCGGCACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGATCGAACATGCTGACTGCACTCTTAGTACCTTACATATTCTTTAGTTTTCCCTCAGTGCTATTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATAGCTTTCATTGCAGTAGTGCTAAGACTTTTCTTTCCAA--GACATTTTCCAGATTGGCTGGATATGCCTGGATCGCTGATTCTTCTTTTAGTGGTGGCTCCAAGTTTCTTTGCACACACGCTGAAGGACAGCTGGGTTGGTGTTGTAATTTGTCTTCTAATTGGCTGTTACTTACTGCAAGAACACATTAGAGCATCTGGTGGGTTCAGAAATTCTTTCACTCAAGGCCACGGTATTTCCAACACTCTCGGCATTGTTCTTCTGTTGGTGTACCCTGTCTG",
+                                    "midline": "|||||||||||    |||| || ||||| |||||||||||| |   ||  |  ||  |  |||||   || ||| ||||||||||||| || ||  |||  | |||| |||||||||| |  | |||   || | ||  || || ||||||  ||| ||||||||| | |||| | |||| ||||||||||||||||||||||||||||||||||||||| | |||||||| ||  |||| ||||| |||||||||||| | ||| |||| || | || |||  |  | || ||||| ||||| || | |||||| ||  |||||||||| ||| |||| || |||||  |||  | ||||| |||| ||||||||| |||||||||||| |||| || ||  | |||||||| |||   |||||| ||||||   ||||||| |||||| | ||  ||| ||||    |    || || ||| || |  |||||||||| || |||||  ||||||| ||  | ||||| ||||| ||  ||||||| | ||  |||||  | ||  || | |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 20,
+                            "description": [
+                                {
+                                    "id": "gi|1227938481|ref|XM_022049453.1|",
+                                    "accession": "XM_022049453",
+                                    "title": "PREDICTED: Carica papaya cold-regulated 413 plasma membrane protein 2-like (LOC110820077), mRNA",
+                                    "taxid": 3649,
+                                    "sciname": "Carica papaya"
+                                }
+                            ],
+                            "len": 1009,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 367.37,
+                                    "score": 406,
+                                    "evalue": 2.13876e-96,
+                                    "identity": 439,
+                                    "query_from": 61,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 85,
+                                    "hit_to": 673,
+                                    "hit_strand": "Plus",
+                                    "align_len": 595,
+                                    "gaps": 6,
+                                    "qseq": "AGAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AGAAAATGGGGAGG---ATGGAATATTTGGCTATGAAGACTGATCA---GGCCACTGCTGATCTCATCACTTCTGACTTTAACGAGCTCAAGATCGCAGCAAAGAAGCTCATGAATGATGCTACGAGGCTCGGGGGACTCGGCTTCGGCACTTCTTTTCTTAAATGGGTCGCCTCATTCGCTGCCATTTATTTGCTGATATTGGATCGAACAAACTGGAGAACCAATATGCTGACATCACTTCTAATACCTTACATTTTCTTGAGTCTTCCTTCAGTGCTATTTCACTTTCTAAGAGGAGAGGTCGGGAAATGGATTGCTTTCATTGCTGTGGTTCTCAGGCTCTTCTTGCCACGACACTTTCCGGATTGGCTGGAAATGCCGGGCTCATTGATTCTTCTACTGGTTGTTGCACCAAACTTCTTTGCACACACCTTGAAAGACAGCTGGATTGGTGTTGTAATTTGCCTTATTATTGGTTGCTATCTACTGCAAGAACACATCCGAGCATCTGGTGGATTCAGAAATTCCTTTACGCAAACCCATGGTATCTCAAACACCCTTGGCATCATCCTCCTGTTGGTCTATCCTGTGTG",
+                                    "midline": "|||||||||||||    ||| | || ||||| ||||| ||||||||   ||||   ||| || | |||  ||| ||  | || ||||| || || ||| ||| || |||||| ||||||||||  | ||||||      ||| || ||||||  ||| || |||||| ||||||   | || || ||||| ||| ||||||||||||||||||||||||||||||| ||||| || |||||| || | |||||||| ||| | |||||||| || | || ||||||  |  | ||||| ||||||||||||||||||||  ||||||| || ||  | ||||| |||||    || || || || | ||||||||||||||| || || ||||| || || ||||| || |||||| |||||||| ||||||   |||| || |||||||| ||  ||| ||||    |    || || ||  | ||  |||||||||| ||| ||||  ||||||| ||  | |||||||| || || | ||| || |  |  |||||  ||||  | ||||| ||  |||  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 21,
+                            "description": [
+                                {
+                                    "id": "gi|1063463252|ref|XM_007047032.2|",
+                                    "accession": "XM_007047032",
+                                    "title": "PREDICTED: Theobroma cacao cold-regulated 413 plasma membrane protein 2 (LOC18611025), transcript variant X1, mRNA",
+                                    "taxid": 3641,
+                                    "sciname": "Theobroma cacao"
+                                }
+                            ],
+                            "len": 1065,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 362.862,
+                                    "score": 401,
+                                    "evalue": 9.09426e-95,
+                                    "identity": 448,
+                                    "query_from": 54,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 221,
+                                    "hit_to": 817,
+                                    "hit_strand": "Plus",
+                                    "align_len": 605,
+                                    "gaps": 11,
+                                    "qseq": "TGTGAACAGA-AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGT-TCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGAGAACTGAGAAATGGGGAGA---ATGGACTATTTGGCTATGAAAACAGATCCTGTAGCAGAAG---ATTTGATTAGTTCTGATATGACTGAGCTGAAGCTGGCTGCAAAGAAGTTGATCAATGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTAATCCTAGACCGAACAAACTGGAGAACAAACATGTTGACTTCACTTCTGATACCTTACATCTTCTTTAGTCTTCC-TATGGTGCTTTTCAACTTTCTAAGGGGAGAGGTTGGAAAATGGATCGCATTCGTTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCCGGATCATTGATTCTTCTCCTGGTTGTGGCTCCAAACTTCTTTGCACACACCTTGAAGGACAGCTGGGTCGGTGTTTTGA-TATGCCTCCTCATCGGTTGTTACTTGCTGCAAGAGCACATCCGGGCCTCGGGTGGATTCAGGAATTCCTTCTCTCAGAGCCATGGAATATCAAACACCGTTGGCATTATCCTTCTGTTAGTCTACCCTGTCTG",
+                                    "midline": "|| |||| || |||||||||||   ||| | || ||||| |||||||| ||||   | || |  |   || ||||   ||| ||||| | |||||| ||  ||||  ||| || | | ||||||||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | |||| | |||| |||||||| ||||| ||  | || ||||||||||||||||| |||||| | || |||||| |  | |||||||| ||| | |||||||| |  ||  | ||||| || | | || || ||||| || |||||||| ||  || ||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||| |||||||| ||||||   ||||||| |||||| ||||  ||   | ||||  |    || || ||| || || ||||||| || ||| | ||| | ||||| ||  ||||||||||| | |||||||| ||||  |  |||||  ||||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 22,
+                            "description": [
+                                {
+                                    "id": "gi|1063463253|ref|XM_007047033.2|",
+                                    "accession": "XM_007047033",
+                                    "title": "PREDICTED: Theobroma cacao cold-regulated 413 plasma membrane protein 2 (LOC18611025), transcript variant X2, mRNA",
+                                    "taxid": 3641,
+                                    "sciname": "Theobroma cacao"
+                                }
+                            ],
+                            "len": 1071,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 362.862,
+                                    "score": 401,
+                                    "evalue": 9.09426e-95,
+                                    "identity": 448,
+                                    "query_from": 54,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 227,
+                                    "hit_to": 823,
+                                    "hit_strand": "Plus",
+                                    "align_len": 605,
+                                    "gaps": 11,
+                                    "qseq": "TGTGAACAGA-AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGT-TCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGAGAACTGAGAAATGGGGAGA---ATGGACTATTTGGCTATGAAAACAGATCCTGTAGCAGAAG---ATTTGATTAGTTCTGATATGACTGAGCTGAAGCTGGCTGCAAAGAAGTTGATCAATGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTAATCCTAGACCGAACAAACTGGAGAACAAACATGTTGACTTCACTTCTGATACCTTACATCTTCTTTAGTCTTCC-TATGGTGCTTTTCAACTTTCTAAGGGGAGAGGTTGGAAAATGGATCGCATTCGTTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCCGGATCATTGATTCTTCTCCTGGTTGTGGCTCCAAACTTCTTTGCACACACCTTGAAGGACAGCTGGGTCGGTGTTTTGA-TATGCCTCCTCATCGGTTGTTACTTGCTGCAAGAGCACATCCGGGCCTCGGGTGGATTCAGGAATTCCTTCTCTCAGAGCCATGGAATATCAAACACCGTTGGCATTATCCTTCTGTTAGTCTACCCTGTCTG",
+                                    "midline": "|| |||| || |||||||||||   ||| | || ||||| |||||||| ||||   | || |  |   || ||||   ||| ||||| | |||||| ||  ||||  ||| || | | ||||||||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | |||| | |||| |||||||| ||||| ||  | || ||||||||||||||||| |||||| | || |||||| |  | |||||||| ||| | |||||||| |  ||  | ||||| || | | || || ||||| || |||||||| ||  || ||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||| ||||| || |||||||| ||||| ||| |||||||| ||||||   ||||||| |||||| ||||  ||   | ||||  |    || || ||| || || ||||||| || ||| | ||| | ||||| ||  ||||||||||| | |||||||| ||||  |  |||||  ||||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 23,
+                            "description": [
+                                {
+                                    "id": "gi|1269881407|ref|XM_022895605.1|",
+                                    "accession": "XM_022895605",
+                                    "title": "PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2 (LOC111300020), transcript variant X3, mRNA",
+                                    "taxid": 66656,
+                                    "sciname": "Durio zibethinus"
+                                }
+                            ],
+                            "len": 1069,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 361.058,
+                                    "score": 399,
+                                    "evalue": 3.17421e-94,
+                                    "identity": 439,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 247,
+                                    "hit_to": 832,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 8,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGA---ATGGAGTATTTGGCTATGAAAACTGATCCTGTAGCTGAAG--AAT-TGATCAGTTCTGATATCCATGACCTGAAGCTGGCTGCAAAGAAACTAATCAAGGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCTTCATTTTCGGCTATTTATTTGTTAATCCTGGACCGAACAAACTGGAGAACGAACATGTTAACTTCTCTTCTGGTACCTTACATCTTCTTTAGTCTTCCTTCAGTACTGTTCGACTTTCTAAGGGGAGAGGTTGGAAAATGGATTGCATTCATTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCAGGATCGTTGATCCTTCTTCTGGTGGTGGCTCCAAACTTCTTTGCAGTCACCTTGAAGGGCAGCTGGGTTGGAGTT-CTGATATGCCTCCTCATCGGCTGTTACCTACTGCAAGAGCACATCCGAGCATCGGGTGGATTCCGGAATTCCTTCACTCAGAGCCATGGAATATCAAACACCATCGGCATTATCCTTCTTATAGTCTACCCTGTCTG",
+                                    "midline": "|||||||||||   ||| |||| ||||| |||||||||||||   | || |  |  ||| |||||  ||| |||||| |||| || ||  ||||  ||| ||  || ||||| ||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | || |   || |||||||||| ||||| ||  |||| ||||||||||||||||| |||||| | || || ||| | || |||||||| ||| | |||||||| || |  |  ||  |  |  | || || ||||| || |||||||||||  |||||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||||||||| || || ||||||||||| ||| |||||||| ||  ||   ||||||  |||||| | ||| || |   ||||  |    || || ||| ||||  ||||||| || ||| ||||  | ||||| ||  ||||||||||||| |||||||| ||||  |  ||||| || ||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 24,
+                            "description": [
+                                {
+                                    "id": "gi|1269881405|ref|XM_022895604.1|",
+                                    "accession": "XM_022895604",
+                                    "title": "PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2 (LOC111300020), transcript variant X2, mRNA",
+                                    "taxid": 66656,
+                                    "sciname": "Durio zibethinus"
+                                }
+                            ],
+                            "len": 1091,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 361.058,
+                                    "score": 399,
+                                    "evalue": 3.17421e-94,
+                                    "identity": 439,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 269,
+                                    "hit_to": 854,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 8,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGA---ATGGAGTATTTGGCTATGAAAACTGATCCTGTAGCTGAAG--AAT-TGATCAGTTCTGATATCCATGACCTGAAGCTGGCTGCAAAGAAACTAATCAAGGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCTTCATTTTCGGCTATTTATTTGTTAATCCTGGACCGAACAAACTGGAGAACGAACATGTTAACTTCTCTTCTGGTACCTTACATCTTCTTTAGTCTTCCTTCAGTACTGTTCGACTTTCTAAGGGGAGAGGTTGGAAAATGGATTGCATTCATTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCAGGATCGTTGATCCTTCTTCTGGTGGTGGCTCCAAACTTCTTTGCAGTCACCTTGAAGGGCAGCTGGGTTGGAGTT-CTGATATGCCTCCTCATCGGCTGTTACCTACTGCAAGAGCACATCCGAGCATCGGGTGGATTCCGGAATTCCTTCACTCAGAGCCATGGAATATCAAACACCATCGGCATTATCCTTCTTATAGTCTACCCTGTCTG",
+                                    "midline": "|||||||||||   ||| |||| ||||| |||||||||||||   | || |  |  ||| |||||  ||| |||||| |||| || ||  ||||  ||| ||  || ||||| ||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | || |   || |||||||||| ||||| ||  |||| ||||||||||||||||| |||||| | || || ||| | || |||||||| ||| | |||||||| || |  |  ||  |  |  | || || ||||| || |||||||||||  |||||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||||||||| || || ||||||||||| ||| |||||||| ||  ||   ||||||  |||||| | ||| || |   ||||  |    || || ||| ||||  ||||||| || ||| ||||  | ||||| ||  ||||||||||||| |||||||| ||||  |  ||||| || ||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 25,
+                            "description": [
+                                {
+                                    "id": "gi|1269881403|ref|XM_022895603.1|",
+                                    "accession": "XM_022895603",
+                                    "title": "PREDICTED: Durio zibethinus cold-regulated 413 plasma membrane protein 2 (LOC111300020), transcript variant X1, mRNA",
+                                    "taxid": 66656,
+                                    "sciname": "Durio zibethinus"
+                                }
+                            ],
+                            "len": 1072,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 361.058,
+                                    "score": 399,
+                                    "evalue": 3.17421e-94,
+                                    "identity": 439,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 250,
+                                    "hit_to": 835,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 8,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGA---ATGGAGTATTTGGCTATGAAAACTGATCCTGTAGCTGAAG--AAT-TGATCAGTTCTGATATCCATGACCTGAAGCTGGCTGCAAAGAAACTAATCAAGGATGCAACTAAGCTTGGAGGTCTTGGTTTTGGAACTTCTTTTCTCAAATGGGTTGCTTCATTTTCGGCTATTTATTTGTTAATCCTGGACCGAACAAACTGGAGAACGAACATGTTAACTTCTCTTCTGGTACCTTACATCTTCTTTAGTCTTCCTTCAGTACTGTTCGACTTTCTAAGGGGAGAGGTTGGAAAATGGATTGCATTCATTGCAGTTGTTCTAAGGCTGTTCTTCCCCCGACACTTTCCAGATTGGCTGGAGATGCCAGGATCGTTGATCCTTCTTCTGGTGGTGGCTCCAAACTTCTTTGCAGTCACCTTGAAGGGCAGCTGGGTTGGAGTT-CTGATATGCCTCCTCATCGGCTGTTACCTACTGCAAGAGCACATCCGAGCATCGGGTGGATTCCGGAATTCCTTCACTCAGAGCCATGGAATATCAAACACCATCGGCATTATCCTTCTTATAGTCTACCCTGTCTG",
+                                    "midline": "|||||||||||   ||| |||| ||||| |||||||||||||   | || |  |  ||| |||||  ||| |||||| |||| || ||  ||||  ||| ||  || ||||| ||||| | || ||| ||   |   || ||||| |||  ||| ||||||||| | || |   || |||||||||| ||||| ||  |||| ||||||||||||||||| |||||| | || || ||| | || |||||||| ||| | |||||||| || |  |  ||  |  |  | || || ||||| || |||||||||||  |||||||||| ||  ||||||||||||||  ||| || || |||| ||||||||| ||||| ||||||||||| || || ||||||||||| ||| |||||||| ||  ||   ||||||  |||||| | ||| || |   ||||  |    || || ||| ||||  ||||||| || ||| ||||  | ||||| ||  ||||||||||||| |||||||| ||||  |  ||||| || ||  ||||||||||  | |  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 26,
+                            "description": [
+                                {
+                                    "id": "gi|2082386146|ref|XM_043113302.1|",
+                                    "accession": "XM_043113302",
+                                    "title": "PREDICTED: Carya illinoinensis cold-regulated 413 plasma membrane protein 2-like (LOC122301958), transcript variant X2, mRNA",
+                                    "taxid": 32201,
+                                    "sciname": "Carya illinoinensis"
+                                }
+                            ],
+                            "len": 824,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 359.255,
+                                    "score": 397,
+                                    "evalue": 1.10791e-93,
+                                    "identity": 430,
+                                    "query_from": 78,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 133,
+                                    "hit_to": 707,
+                                    "hit_strand": "Plus",
+                                    "align_len": 580,
+                                    "gaps": 7,
+                                    "qseq": "ATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "ATGAATTACTTGGCTATGAAAACTGATCC---GGCAATGGAGGATTTGATCGGCTCTGATATCAATGACCTCAAGATCGCTGCAAAGAGGCTTATCAATCATGCCACCAAGCTTGCTGGCCTCAGCTTTGGGACTTCTTTTCTGGAATGGGTGGCTTCCTTCTCAGCTATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCAGTGCTGTTCAATTTTTTCAGAGGAGAGGTTGGAAAATGGATTGCTTTCATTGCAGTTGTACTAAGGCTTTTCTTCCCACGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTGCTCTTGGTTGTGGCTCCCAGCTTCTTTGCAGACACCTTGAAGGACAGCTGGGTTGGTATCTTGA-TATGCCTTATC-ATCGGTTGTTACCTATTGCAAGAGCATATTCGGGCATCCGGAGGATTCAAAAATTCCTTCACTCAAAACCATGGCATATCCAACACCGTTGGCATTATCCTTCTGTTAGTTTATCCTGTCTG",
+                                    "midline": "||||| |||||||| |||||||||||||    |||  |||   || ||||||  || ||||||||||| || || || ||  ||| |||||| |||||| |||| |  | ||| | |     | | ||||| |||  ||| ||  ||||| | || | | |  | |||||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | ||  ||  || | |||||||| ||||| || |||||||||||  |||||||||| ||  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || ||| |||| ||||| ||   ||||||| || |||   ||||||| |||||| | || ||    | ||||   || | || || ||| ||||  ||||||| |||||  | ||  | || || ||    ||||||||||| || | ||| || |  |  |||||  ||||  ||||||||||  | | ||| ||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 27,
+                            "description": [
+                                {
+                                    "id": "gi|2082386143|ref|XM_043113301.1|",
+                                    "accession": "XM_043113301",
+                                    "title": "PREDICTED: Carya illinoinensis cold-regulated 413 plasma membrane protein 2-like (LOC122301958), transcript variant X1, mRNA",
+                                    "taxid": 32201,
+                                    "sciname": "Carya illinoinensis"
+                                }
+                            ],
+                            "len": 844,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 359.255,
+                                    "score": 397,
+                                    "evalue": 1.10791e-93,
+                                    "identity": 430,
+                                    "query_from": 78,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 153,
+                                    "hit_to": 727,
+                                    "hit_strand": "Plus",
+                                    "align_len": 580,
+                                    "gaps": 7,
+                                    "qseq": "ATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "ATGAATTACTTGGCTATGAAAACTGATCC---GGCAATGGAGGATTTGATCGGCTCTGATATCAATGACCTCAAGATCGCTGCAAAGAGGCTTATCAATCATGCCACCAAGCTTGCTGGCCTCAGCTTTGGGACTTCTTTTCTGGAATGGGTGGCTTCCTTCTCAGCTATTTATTTGCTGATATTGGATCGAACCAACTGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCAGTGCTGTTCAATTTTTTCAGAGGAGAGGTTGGAAAATGGATTGCTTTCATTGCAGTTGTACTAAGGCTTTTCTTCCCACGACACTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTGCTCTTGGTTGTGGCTCCCAGCTTCTTTGCAGACACCTTGAAGGACAGCTGGGTTGGTATCTTGA-TATGCCTTATC-ATCGGTTGTTACCTATTGCAAGAGCATATTCGGGCATCCGGAGGATTCAAAAATTCCTTCACTCAAAACCATGGCATATCCAACACCGTTGGCATTATCCTTCTGTTAGTTTATCCTGTCTG",
+                                    "midline": "||||| |||||||| |||||||||||||    |||  |||   || ||||||  || ||||||||||| || || || ||  ||| |||||| |||||| |||| |  | ||| | |     | | ||||| |||  ||| ||  ||||| | || | | |  | |||||||| ||| |||||||||||||||| ||||||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | ||  ||  || | |||||||| ||||| || |||||||||||  |||||||||| ||  ||||||| ||||||   || || ||||||| ||||||||| ||||| ||||| ||||| || ||| |||| ||||| ||   ||||||| || |||   ||||||| |||||| | || ||    | ||||   || | || || ||| ||||  ||||||| |||||  | ||  | || || ||    ||||||||||| || | ||| || |  |  |||||  ||||  ||||||||||  | | ||| ||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 28,
+                            "description": [
+                                {
+                                    "id": "gi|1954740698|ref|XM_038867092.1|",
+                                    "accession": "XM_038867092",
+                                    "title": "PREDICTED: Tripterygium wilfordii cold-regulated 413 plasma membrane protein 2 (LOC120014952), mRNA",
+                                    "taxid": 458696,
+                                    "sciname": "Tripterygium wilfordii"
+                                }
+                            ],
+                            "len": 999,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 356.55,
+                                    "score": 394,
+                                    "evalue": 3.86698e-93,
+                                    "identity": 447,
+                                    "query_from": 57,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 188,
+                                    "hit_to": 780,
+                                    "hit_strand": "Plus",
+                                    "align_len": 604,
+                                    "gaps": 16,
+                                    "qseq": "GAACAGAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGT--CATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTC--ATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "GAAAAGAAAATGGGGAGA---ACGGATTATTTGGCGATGAAGACTGATCC---GGTTGTGGACGATTTGATCAGCTCCGACTTCAATGAGCTCAAGATTGCTGCTAAGAAGCTCGTTAATGATGCCACAAGGCTTGGAGGCCTT--GGATTTGGGACTTCTTTCCTCAAATGGGTCGCATCCTTCTCGGCAATTTATTTGTTGATATTGGATCGAACAAACTGGAGAACAAACATGCTGACATCACTTCTAGTCCCATACATTTTCTTTAGTCTTCC-TTCAGTCCTGTTCGGAT-TCTTAAGAGGGGAGTTCGGAAAATGGATTGCTTTTATTGCAGTTGTACTGAGACTCTTTTTTCCCCGACATTTCCCAGATTGGCTGGAGATGCCAGGGTCTTTGATCCTCCTCCTGGTTGTAGCCCCCAATTTCTTTGCCCACACCTTGAAGGATAGCTGGGTTGG-TGTGTTGATATGTCTCCTCATTGGTTGTTACTTGTTGCAAGAGCATATCAGGGCATCTGGTGGATTCAGAAATTCCTTCACAGAAAGCCATGGAATATCGAACACTCTTGGCATTATCCTTCTGCTAGTCTATCCTGTTTG",
+                                    "midline": "||| ||||||||||||||   | | | || ||||| ||||| |||||||    ||  ||||   || |||||   |||||  |||||||||| || || ||  | | || |||| | |||||||| |  | ||| ||   | ||  || ||||| |||  ||||||||||||| |||| | | |  |||| ||||| |||||||||||||||||||||||||||||||| |||||||| || |||||| ||||||| ||||| ||| | |||||||| | | | ||  |||  || | || ||||| ||| |||| |||||||||||  | |||||||| ||  | || || || ||   ||| |||||||||| ||||||||| ||||| || || ||||| ||||||||||| || || ||  | |||||| | ||||   ||||||| |||||| | ||   ||    ||||  |    || || ||| || || ||||||| |||||||| ||  ||||||| ||  | |||||||||||| | ||||| ||||  |  |||||  ||||  |||||||||| || |  || ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 29,
+                            "description": [
+                                {
+                                    "id": "gi|1882636119|ref|XM_018974650.2|",
+                                    "accession": "XM_018974650",
+                                    "title": "PREDICTED: Juglans regia cold-regulated 413 plasma membrane protein 2-like (LOC108998174), mRNA",
+                                    "taxid": 51240,
+                                    "sciname": "Juglans regia"
+                                }
+                            ],
+                            "len": 1015,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 353.845,
+                                    "score": 391,
+                                    "evalue": 4.71094e-92,
+                                    "identity": 437,
+                                    "query_from": 65,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 113,
+                                    "hit_to": 697,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 10,
+                                    "qseq": "AATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AATGGGGAGG---ATGAATTATTTGGCTATGAAAACTGATCC---GGCAATGGATGATTTGATCGGCTCTGATATCAATGACCCCAAGATCGCTGCAAAGAAGCTCATCAATCATGCCACTAAGCTTGCTGGCCTCAGCTTTGGGACTTCTTTTCTGGAATGGGTGGCTTCCTTCGCAGCTATTTATTTGCTGATATTGGATCGAACCAACAGGAGAACAAACATGCTGACTTCACTTTTAGTCCCTTACATATTCTTTAGCCTTCCTTCAGTGCTGTTCGATTTTTTCAGAGGAGAGGTTGGAAAATGGATTTCTTTCATTGCAGTTGTACTAAGGCTCTTCTTCCCGCGACGCTTCCCAGATTGGCTGGAGATGCCAGGATCTTTGATTCTTCTCTTGGTTGTGGCTCCCAGCTTCTTTGCAGACACCTTGAAGGACAGCTGGGTTGGTATCTTGA-TATGCCTTATC-ATTGGTTGTTACCTACTGCAAGAGCACATTCGGGCAGCCGGAGGATTCAGAAATTCCTTCACTCAAACCCATGGCATATCCAACACCGTTGGCATTATCCTTCTGTTAGTTTATCCTGTCTG",
+                                    "midline": "|||||||||    ||||| || ||||| |||||||||||||    |||  ||| | || ||||||  || ||||||||||| |  || || ||  ||| || |||||||||| |||| | || ||| | |     | | ||||| |||  ||| ||  ||||| | || | | | || |||||||| ||| |||||||||||||||| ||| ||||||| |||||||| || |||||||||||||||||||||||| | || ||||| || | ||  ||  || | |||||||| ||||| || ||||||||| |  |||||||||| ||  ||||||| ||||||   || |  ||||||| ||||||||| ||||| ||||| ||||| || ||| |||| ||||| ||   ||||||| || |||   ||||||| |||||| | || ||    | ||||   || | || || ||| ||||  ||||||| || ||  | ||  | || || ||  | ||||||||||| || | ||| || |  |  |||||  ||||  ||||||||||  | | ||| ||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 30,
+                            "description": [
+                                {
+                                    "id": "gi|2526866810|ref|XM_057645500.1|",
+                                    "accession": "XM_057645500",
+                                    "title": "PREDICTED: Actinidia eriantha cold-regulated 413 plasma membrane protein 2-like (LOC130785340), mRNA",
+                                    "taxid": 165200,
+                                    "sciname": "Actinidia eriantha"
+                                }
+                            ],
+                            "len": 1152,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 352.943,
+                                    "score": 390,
+                                    "evalue": 4.71094e-92,
+                                    "identity": 440,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 346,
+                                    "hit_to": 932,
+                                    "hit_strand": "Plus",
+                                    "align_len": 595,
+                                    "gaps": 10,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCA-TCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAAT-TGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGA---ATGGATTATTTGGCGATGAAGACCGATCCAGCGGC--TGCCGAAT-TGATCAATTCGGACATCAATGAGCTGAAGATCGCCGCCAAGCGCCTCTTTAACCATGCCACCAAGCTCGGTGGCCTAGGTTTCGGCACTTCCTTCCTCAAATGGGTCGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACAAATATGCTGACTTCACTTCTAGTCCCATATATTTTTTTTAGTCTTCC-TACGGTCTTGTTCAGTTTCTTAAGAGGCGAGTTTGGGAAATGGGTTGCTTTCATTGCAGTTGTGCTGAGGCTTTTCTTCCCTCGCCATTTCCCAGACTGGCTGGAGATGCCCGGGTCGTTGATTCTTCTTCTGGTGGTTGCTCCCAGCTTCTTTACGCACACCCTAAAGGAGAGCTTGGTTGGAGTCTTCATATGTCTTA-TTATCGGTTGCTATCTTCTGCAAGAGCACATCAGGGCATCCGGTGGATTCAGAAACTCCTTCACACAAACCCATGGTATATCAAACACACTCGGCATTATCCTTCTGTTAGTCTATCCGGTCTG",
+                                    "midline": "||||||||||||   ||| | || ||||| ||||| || |||| |  |||  || | ||| ||||| |||| || ||||||||||| || || ||  | | | | ||| | ||  |||| |  | |||||||      || || ||||||   |||||||||||| |||||| | |||| ||||||||||||||||||||||||||||||||||||||||| || ||||| || |||||| ||||||| || || ||  | |||||||| | ||| |   |||| | | || ||||||||| | ||||||||| ||||  |||||||||| ||| | ||||| ||||||   || ||||||||||  |||||||| ||||| || |||||||| || || |||||||| || ||   ||||||||| ||||   | |||||||||| | | ||| | | ||  | |  ||   || || ||  | ||  ||||||| || ||||| ||  | ||||| ||  | || ||||||||||| | ||| || |  |  |||||| | ||  ||||||||||  | |  || || |||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 31,
+                            "description": [
+                                {
+                                    "id": "gi|1187397285|gb|KX009413.1|",
+                                    "accession": "KX009413",
+                                    "title": "Santalum album COR413-PM2 mRNA, complete cds",
+                                    "taxid": 35974,
+                                    "sciname": "Santalum album"
+                                }
+                            ],
+                            "len": 837,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 351.14,
+                                    "score": 388,
+                                    "evalue": 1.64428e-91,
+                                    "identity": 437,
+                                    "query_from": 65,
+                                    "query_to": 658,
+                                    "query_strand": "Plus",
+                                    "hit_from": 25,
+                                    "hit_to": 612,
+                                    "hit_strand": "Plus",
+                                    "align_len": 595,
+                                    "gaps": 8,
+                                    "qseq": "AATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTGTTT",
+                                    "hseq": "AATGGGGAGG---ATGGATTTCTTGGCCATGAAAACAGATCCCGCGGCCGCCG---ATTTGATCAATTCCGACATCAAAGATCTCAAGGTTGCAGCCAAGAGGCTCATCAGTGACGCCACTAAGCTCGGTGGCCTAGGCTTTGGCACTTCCTTCCTCAAATGGGTCGCGTCTTTCGCTGCCATTTATTTGTTGATATTGGATCGGACAAACTGGAGAACAAACATGCTGACGGCGCTTCTAGTTCCTTACATTTTCTTCAGTTTTCCTTCAGTTCTGTTTAACTTTTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTCATCGCAGTTGTGCTAAGGCTCTTCTTCCCCCGCCATTTCCCAGACTGGCTGGAGATGCCGGGATCGTTGATTCTTCTGCTGGTGGTGTCCCCCAGCTTCTTTGCGCATACCCTGAGGCACAACGTGGTGGGTGTCGTGA-TATGCCTCGCAATCGCTTGTTATCTGCTGCAGGAGCACATCCGAGCGTCGGGTGGATTTAGAAATTCCTTCACACGGAGCAACGGAGTATCGAACACGGTTGGCATTGTCCTTATCTTGGTTTATCCGGTTTGGTT",
+                                    "midline": "|||||||||    ||| | | ||||||||||||||| ||||    |||||  |   || ||||| ||||||| ||||| || || ||  | ||| | | ||||||||||| ||| || | || |||||||      || |||||||||   |||||||||||| |||| |   | || || ||||| ||||||||||||||||| |||||||||||||| |||||||| ||| | ||| |||| |||||||| ||| ||||| |||| || |  |  ||| |  | ||||| || ||||| || |||||||||||  |||| ||||| ||| ||||||| ||||||  ||| ||||||||||  |||||||| ||||| ||||||||||| || || ||||||||| | ||   ||||||| | || |   ||| | | | |  | | ||  | |  | ||||  | || || |  ||| | ||| |||| || || ||| ||||  | ||||| ||| | ||||||||||||| |||| |||||   |  |||||  ||||  || ||||| |  ||| ||| || || || ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 32,
+                            "description": [
+                                {
+                                    "id": "gi|2550782781|ref|XM_058372567.1|",
+                                    "accession": "XM_058372567",
+                                    "title": "PREDICTED: Rhododendron vialii cold-regulated 413 plasma membrane protein 2 (LOC131336659), mRNA",
+                                    "taxid": 182163,
+                                    "sciname": "Rhododendron vialii"
+                                }
+                            ],
+                            "len": 1110,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 347.533,
+                                    "score": 384,
+                                    "evalue": 2.00314e-90,
+                                    "identity": 406,
+                                    "query_from": 111,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 343,
+                                    "hit_to": 887,
+                                    "hit_strand": "Plus",
+                                    "align_len": 546,
+                                    "gaps": 2,
+                                    "qseq": "GCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "GCCGATGCTGAAATGATCGACTCGGATATCAACGAGCTGAAGATCGCGGCCAAGCGACTGATTAGCCACGCCACCAAGCTCGGTGGGCTAGGGTTCGGCACTTCCTTCCTCAAATGGGTCGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGTACAAACTGGAAAACCAATATTCTGACTTCACTTCTAGTCCCTTATATTTTCTTCAGCCTTCCTTCGGTGTTGTTCAATTTCTTAAGAGGAGAGGTTGGGAAATGGATTGCTTTCATTGCAGTTGTGCTAAGGCTTTTCTTCCCTCGCCATTTCCCAGATTGGCTGGAGATGCCTGGGTCGTTGATTCTTCTTCTCGTGGTGGCCCCCAGCTTCTTCGCAGACACCTTAAAAGATAGCTGGGTTGGGGTAGCAA-TATGTCTAATAATCGGTTGTTATCTGCTGCAAGAGCACATCAGGGTGTCCGGTGGATTTAGAAATTCCTTCACACAACCCCATGGGATATCAAACACTGTTGGCATTATCCTCTTGCTAGTGTATCCTCTCTG",
+                                    "midline": "||||  ||| | |||||||| || |||||||| ||||| || || ||  | | | | || || |   | || |  | |||||||      ||||| ||||||   |||||||||||| |||||| | |||| |||||||||||||||||||||||||| |||||||||| |||||| || || || |||||| |||||||||| || ||| |||| ||||| || | |   ||  || | || ||||| ||||| ||||||||||||||  |||||||||| ||| ||||||| ||||||   || |||||||||| ||||||||| |||||||| |||||||| || || || |||||||| ||   ||||||  || |||   | || || |||||| | ||  | |||| ||||  ||   || || ||| | ||| ||||||| || ||||| |   | ||||| ||| | ||||||||||||||   ||| || |  |  |||||  ||||  |||||||  | || |  || ||| ||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 33,
+                            "description": [
+                                {
+                                    "id": "gi|2806124758|ref|XM_068481225.1|",
+                                    "accession": "XM_068481225",
+                                    "title": "PREDICTED: Pyrus communis cold-regulated 413 plasma membrane protein 2-like (LOC137741519), mRNA",
+                                    "taxid": 23211,
+                                    "sciname": "Pyrus communis"
+                                }
+                            ],
+                            "len": 850,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 346.631,
+                                    "score": 383,
+                                    "evalue": 6.99166e-90,
+                                    "identity": 398,
+                                    "query_from": 124,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 140,
+                                    "hit_to": 671,
+                                    "hit_strand": "Plus",
+                                    "align_len": 533,
+                                    "gaps": 2,
+                                    "qseq": "TGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAAT-TATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGATAGATTCAGATATCAAAGAGCTCAAGATTGCAGCCAAGAGACTCATCAGTGATGCCACCAAGCTTGGTGGTTTGGGTTTTGGGACTGCTTTTCTCAAATGGGTTGCCTCCCTTGCCGCCATATATTTGTTGATACTGGACCGGACAAACTGGAGAACAAACATGCTGACTTCGCTTTTAATCCCTTACATTTTCTTCAGTCTTCCTTCAGTGCTGTTCGACCTCCTAAGAGGAGAGGTTGGAAGATGGATTGCTTTTGTTGCCGTTGTACTGAGGCTTTTCTTCCCAAGGCATTTCCCAGATTGGCTAGAGATGCCGGGATCGTTGATCCTTCTTCTGGTTGTGGCTCCAAACTTGTTTGCGCACACGTTGAAGGACAGCTGGGTTGGCGTCTCGATCTGTCTTCTC-ATCGGTTGCTACCTGCTGCAAGAGCACATCCGGGCATCAGGTGGATTCCGAAATTCTTTTACACAGAGCCATGGTATATCGAACACGCTCGGAATCATCCTTCTCCTGGTCTACCCTGTCTG",
+                                    "midline": "|||| ||||| |||||||| ||||| || || ||| | | ||| ||||||| |||||| |  | ||| |||  ||  || ||||| |||  ||| ||||||||| | |||| |||||| || || || ||||||||| |||| || |||||||||||||| |||||||| || || |||||| |||||||||| ||| |||||||||| || | ||  ||  | ||  | ||||| ||||| || | |||||||||  |  |||| || ||  | ||||| ||||||    |||||||||||| |||||| || ||||| ||||||||||| || || ||||| ||||| ||| |||| ||| | ||||   ||||||| |||||| | ||  |  | || | |  |  | || || ||  ||||| ||||||| || ||| | ||  | ||||| ||  | ||||| || ||||||||||| || |  |  |||||  | ||  | |||||||| ||||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 34,
+                            "description": [
+                                {
+                                    "id": "gi|2532162279|ref|XM_058104265.1|",
+                                    "accession": "XM_058104265",
+                                    "title": "PREDICTED: Malania oleifera cold-regulated 413 plasma membrane protein 2-like (LOC131152402), mRNA",
+                                    "taxid": 397392,
+                                    "sciname": "Malania oleifera"
+                                }
+                            ],
+                            "len": 2364,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 343.025,
+                                    "score": 379,
+                                    "evalue": 8.51758e-89,
+                                    "identity": 441,
+                                    "query_from": 62,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 1558,
+                                    "hit_to": 2145,
+                                    "hit_strand": "Plus",
+                                    "align_len": 599,
+                                    "gaps": 16,
+                                    "qseq": "GAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACT-CATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCAT--TTCATC-TGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "GAAAATGGGGAGGTC---GGAGTACTTGGCCATGAAAACTGATCCAGCGGCTGCCG---ATTTGATCAGTTCGGACATCAATGACCTGAAAATTGCTGCCAGGAACCTCATCAATCATGCCACCAAGCTTGGAGGCCTAGGGTTCGGTACTTCATTTC-TCAAATGGGTGGCCTCTTTCGCTGCTATTTATTTGTTGATACTGGATCGAACAAACTGGAGAACAAACATGCTGACGGCACTTTTAGTTCCTTACATTTTCTTTAGCTTTCCATCTG---TATTGTTCAACTTTTTCAGGGGAGAGGTTGGAAAATGGATTGCTTTCATTGCAGTTGTGCTAAGGCTTTTCTTCCCCCGCCATTTCCCAGACTGGCTGGAGATGCCGGGATCGTTGATTCTTCTGGTGGTCGTAGCCCCCAGCTTATTCGCACACACTCTGCGGGACAGCTGGGTCGGTGTCTTAA-TATGTCTCATTATAGGTTGCTATTTGCTGCAAGAGCACATCCGGGCATCAGGGGGATTCAGAAATTCCTTCACACAAACCCATGGAATATCAAACACAGTAGGAATAATCCTTCTGCTAGTTTATCCTGTTTG",
+                                    "midline": "||||||||||||      | |||||||||||||||||||||||| |  ||| |  |   || |||||  ||| || |||||||| || ||||| ||  | | ||  ||||||||| |||| |  | ||| ||       ||||| || ||| |||||| |||||||| | ||||   | || |||||||| ||||||||| |||||||||||||||||||||| |||||||| ||| |||||||||| |||||||| ||| | ||  ||||||| |    ||  |||| | | ||||| || ||||| || |||||||||||  |||||||||| ||| ||||||| ||||||  ||| ||||||||||  |||||||| ||||| ||||||||||| || ||  |||| || || ||   ||| ||  ||||||   ||  ||| |||||| ||||  |   || ||||  |    ||||| ||  |  || ||||||| || ||| | ||  | || || ||  | |||||||||||||| | ||| ||||  |  |||||| | ||  | |||||||| || | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 35,
+                            "description": [
+                                {
+                                    "id": "gi|2250518185|ref|XM_009343631.3|",
+                                    "accession": "XM_009343631",
+                                    "title": "PREDICTED: Pyrus x bretschneideri cold-regulated 413 plasma membrane protein 2 (LOC103933927), mRNA",
+                                    "taxid": 225117,
+                                    "sciname": "Pyrus x bretschneideri"
+                                }
+                            ],
+                            "len": 787,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 342.123,
+                                    "score": 378,
+                                    "evalue": 8.51758e-89,
+                                    "identity": 397,
+                                    "query_from": 124,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 77,
+                                    "hit_to": 608,
+                                    "hit_strand": "Plus",
+                                    "align_len": 533,
+                                    "gaps": 2,
+                                    "qseq": "TGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAAT-TGCAATTATGATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGATAGATTCAGATATCAAAGAGCTCAAGATTGCAGCCAAGAGACTCATCAGTGATGCCACCAAGCTTGGTGGTTTGGGTTTTGGGACTGCTTTTCTCAAATGGGTTGCCTCCCTTGCCGCCATATATTTGTTGATACTGGACCGGACAAACTGGAGAACAAACATGCTGACTTCGCTTTTAATCCCTTACATTTTCTTCAGTCTTCCTTCAGTGCTGTTCAACCTCCTAAGAGGAGAGGTTGGAAGATGGATTGCTTTTGTTGCCGTTGTACTGAGGCTTTTCTTCCCAAGGCATTTCCCAGATTGGCTAGAGATGCCGGGATCGTTGATCCTTCTTCTGGTTGTGGCTCCAAACTTGTTTGCGCACACGTTGAAGGACAGCTGGGTTGGCGTCTTGATCTGTCTTCTC-ATCGGTTGCTACCTGCTGCAAGAGCACATCCGGGCATCAGGTGGATTCCGAAATTCTTTTACACAGAGCCATGGTATATCGAACACGCTCGGAATCATCCTTCTCCTGGTCTACCCTGTCTG",
+                                    "midline": "|||| ||||| |||||||| ||||| || || ||| | | ||| ||||||| |||||| |  | ||| |||  ||  || ||||| |||  ||| ||||||||| | |||| |||||| || || || ||||||||| |||| || |||||||||||||| |||||||| || || |||||| |||||||||| ||| |||||||||| || | ||  ||  | ||  | ||||| ||||| || | |||||||||  |  |||| || ||  | ||||| ||||||    |||||||||||| |||||| || ||||| ||||||||||| || || ||||| ||||| ||| |||| ||| | ||||   ||||||| |||||| | ||  | |  |  | |  |  | || || ||  ||||| ||||||| || ||| | ||  | ||||| ||  | ||||| || ||||||||||| || |  |  |||||  | ||  | |||||||| ||||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 36,
+                            "description": [
+                                {
+                                    "id": "gi|1350280614|ref|XM_024170292.1|",
+                                    "accession": "XM_024170292",
+                                    "title": "PREDICTED: Morus notabilis cold-regulated 413 plasma membrane protein 2 (LOC21394987), mRNA",
+                                    "taxid": 981085,
+                                    "sciname": "Morus notabilis"
+                                }
+                            ],
+                            "len": 1020,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 341.221,
+                                    "score": 377,
+                                    "evalue": 2.97293e-88,
+                                    "identity": 433,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 338,
+                                    "hit_to": 920,
+                                    "hit_strand": "Plus",
+                                    "align_len": 593,
+                                    "gaps": 11,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGGGAT------TATTTGGCCATGAAAACGGACCCA---GCCACGGCTGATTTGATAAATTCTGATATCAACGAGCTGAAGATCGCTGCCCAGAGGCTGATCAATGACGCCACTAAACTTGGTGGATTGGGATTTGGCACTGTTTTTCTCAAATGGGTCGCTTCTTTTGCTGCCATTTATTTGTTGATATTGGATCGAACAAACTGGAGGTCAAACATGCTGACTTCGCTTTTGATTCCCTACATTTTCTTCAGTCTTCCCTCAGTGCTGTTTCACTTTCTGAGAGGAGAGGTTGGAAAATGGATAACTTTTATTGCAGTTGTGCTAAGGCTTTTCTTCCCTCGACATTTCCCAGATTGGTTGGAGATGCCGGGATCCTTGATTCTTCTTCTGGTTGTGGCTCCAAGCTTTTTCGCGCACACATTGAGGGACAGTTGGGTTGGCGTCGTGA-TATGTCTCCTCATCGGCTGCTACCTTCTGCAACAGCACATCCGGGCGTCTGGTGGCTTCAGAAACTCCTTCACAGAAAGCAATGGAATTTCAAACACGGTTGGCATTATTCTTCTCTTGGTCTACCCTGTCTG",
+                                    "midline": "|||||||||| ||       || |||||||||||||| || | |   |||  |||| || ||||  |||| |||||||| ||||| || || ||  |   |||||| |||||||| || | ||  || |||   |  || |||||||||  ||| ||||||||| |||| |   |||| || ||||| |||||||||||||||||||||||||||||  | |||||||| || || |||||  | || ||||| ||| |||||||||| || | ||  |||||  |  | ||||| ||||| || ||||||||  |  | |||||||| ||| ||||||| ||||||   || |||||||||| |||| |||| ||||| ||||| ||||| || || ||||| ||||| |||  ||| ||  | |||| | ||| ||| || ||| | ||  | |  | ||||  |    || || ||  ||||  ||||| | || ||| | ||  ||||||||||  | || ||||||||| | ||| | |||| ||  |||||  ||||  |||| |||||  |||  |||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 37,
+                            "description": [
+                                {
+                                    "id": "gi|743838293|ref|XM_011027372.1|",
+                                    "accession": "XM_011027372",
+                                    "title": "PREDICTED: Populus euphratica cold-regulated 413 plasma membrane protein 2 (LOC105126500), transcript variant X1, mRNA",
+                                    "taxid": 75702,
+                                    "sciname": "Populus euphratica"
+                                }
+                            ],
+                            "len": 980,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 340.32,
+                                    "score": 376,
+                                    "evalue": 2.97293e-88,
+                                    "identity": 436,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 118,
+                                    "hit_to": 707,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGC-TGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGCTAATTTAATTGATTCCGATGTCAGTGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGCCGCTAGGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATTGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGAGAGCGTGGTTGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTATTGCAAGAGCACATCCGGGCATCTGGTGGGTTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   |||||| | || ||||||||| ||| |||||| ||  | ||  | | ||  |||||||| |||||   || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| ||||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   ||||||||||| ||| | |    | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 38,
+                            "description": [
+                                {
+                                    "id": "gi|743838297|ref|XM_011027373.1|",
+                                    "accession": "XM_011027373",
+                                    "title": "PREDICTED: Populus euphratica cold-regulated 413 plasma membrane protein 2 (LOC105126500), transcript variant X2, mRNA",
+                                    "taxid": 75702,
+                                    "sciname": "Populus euphratica"
+                                }
+                            ],
+                            "len": 1132,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 340.32,
+                                    "score": 376,
+                                    "evalue": 2.97293e-88,
+                                    "identity": 436,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 270,
+                                    "hit_to": 859,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGC-TGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGCTAATTTAATTGATTCCGATGTCAGTGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGCCGCTAGGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATTGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGAGAGCGTGGTTGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTATTGCAAGAGCACATCCGGGCATCTGGTGGGTTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   |||||| | || ||||||||| ||| |||||| ||  | ||  | | ||  |||||||| |||||   || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| ||||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   ||||||||||| ||| | |    | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 39,
+                            "description": [
+                                {
+                                    "id": "gi|1768569081|ref|XM_031406607.1|",
+                                    "accession": "XM_031406607",
+                                    "title": "PREDICTED: Pistacia vera cold-regulated 413 plasma membrane protein 2-like (LOC116120644), mRNA",
+                                    "taxid": 55513,
+                                    "sciname": "Pistacia vera"
+                                }
+                            ],
+                            "len": 982,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 336.713,
+                                    "score": 372,
+                                    "evalue": 3.62177e-87,
+                                    "identity": 435,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 266,
+                                    "hit_to": 855,
+                                    "hit_strand": "Plus",
+                                    "align_len": 595,
+                                    "gaps": 7,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATT-GGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGATTATCTGGGAATGAAAACTGA-CAATCAGGTTACTGCTGAGGTGATTAACTCTGATATCAATGAGCTTAAGCTTGCTGCAAAGAAGCTTATTAACCACGCAACTAAACTCGGTGGTCTTGGCTTTGGAACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCCGCTATTTATTTGTTGATATTGGATCGAACAAACTGGAGAACAAACATGCTGACTGCACTATTGATACCATATATATTCTTTAGTCTTCCATCAGTACTGTTCAACTTTTTTAGAGGAGAGGTTGGAAGATGGATTGCTTTCATTGCAGTTGTACTAAGACTTTTCTTCCCGAGGCATTTCCCAGATTGGCTGGAGATGCCTGGATCATTGATTCTTCTTCTGGTTGTGGCACCGAGTTTCTTTGCAGAAACGTTGAAGGACAGCTGGGTTGGTGTTGTAA-TATGTCTTATTATTGGCTGTTACCTATTGCAAGAGCACATTCGAGCATCCGGCGGATTCAGAAATTCCTTCACTCAAACCAACGGAATATCAAACACTGTTGGCATTATCCTTCTGTTGGTGTACCCTGTGTG",
+                                    "midline": "|||||||||||    ||| | ||  |||  ||||||||||| ||||  ||     ||| |  ||||  | || |||||||||||||||||  | ||  ||| || ||| || ||  | || | ||  ||||||  |   || ||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||||||||||||||||||||| |||||||| ||  |||| ||  | || || |||||| | ||||||||||| |  |  ||  |  | || ||||| ||||| || | |||||||||  |||||||||| ||  |||| || ||||||    |||||||||||| ||||||||| ||||||||||| ||||| || || ||||| ||||||||    |||||| || | |   ||||||| |||||| | ||  ||| || ||||  |    || || ||| ||||  ||||||| || ||  ||||  | || || ||  | ||||||||||| || | | ||||||  |  |||||  ||||  ||||||||||  |||  |||||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 40,
+                            "description": [
+                                {
+                                    "id": "gi|2396494064|ref|XM_024605027.2|",
+                                    "accession": "XM_024605027",
+                                    "title": "PREDICTED: Populus trichocarpa cold-regulated 413 plasma membrane protein 2 (LOC18101203), transcript variant X2, mRNA",
+                                    "taxid": 3694,
+                                    "sciname": "Populus trichocarpa"
+                                }
+                            ],
+                            "len": 1178,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 335.811,
+                                    "score": 371,
+                                    "evalue": 1.26412e-86,
+                                    "identity": 435,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 295,
+                                    "hit_to": 884,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGC-TGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGCTAATTTAATTGAGTCCGATGTCAATGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGCCGCTAAGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATTGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGGGAGCGTGGTTGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTATTGCAAGAGCACATCCGGGCATCTGGTGGATTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   |||||| | || || |||||| |||||||||| ||  | ||  | | ||  |||||||| |||||   || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| ||||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   |||||| |||| ||| | |    | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 41,
+                            "description": [
+                                {
+                                    "id": "gi|2396494060|ref|XM_052454347.1|",
+                                    "accession": "XM_052454347",
+                                    "title": "PREDICTED: Populus trichocarpa cold-regulated 413 plasma membrane protein 2 (LOC18101203), transcript variant X1, mRNA",
+                                    "taxid": 3694,
+                                    "sciname": "Populus trichocarpa"
+                                }
+                            ],
+                            "len": 1018,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 335.811,
+                                    "score": 371,
+                                    "evalue": 1.26412e-86,
+                                    "identity": 435,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 135,
+                                    "hit_to": 724,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGC-TGGATCGGAATTGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGCTAATTTAATTGAGTCCGATGTCAATGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGCCGCTAAGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATTGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGGGAGCGTGGTTGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTATTGCAAGAGCACATCCGGGCATCTGGTGGATTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   |||||| | || || |||||| |||||||||| ||  | ||  | | ||  |||||||| |||||   || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| ||||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   |||||| |||| ||| | |    | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 42,
+                            "description": [
+                                {
+                                    "id": "gi|1585724761|ref|XM_028202722.1|",
+                                    "accession": "XM_028202722",
+                                    "title": "PREDICTED: Camellia sinensis cold-regulated 413 plasma membrane protein 2-like (LOC114262355), mRNA",
+                                    "taxid": 4442,
+                                    "sciname": "Camellia sinensis"
+                                }
+                            ],
+                            "len": 910,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 333.106,
+                                    "score": 368,
+                                    "evalue": 4.41222e-86,
+                                    "identity": 423,
+                                    "query_from": 61,
+                                    "query_to": 635,
+                                    "query_strand": "Plus",
+                                    "hit_from": 83,
+                                    "hit_to": 657,
+                                    "hit_strand": "Plus",
+                                    "align_len": 577,
+                                    "gaps": 4,
+                                    "qseq": "AGAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATC-TGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTT",
+                                    "hseq": "AGAAAATGGGGAGGAAAATGGAGTATTTGGCAATGAAGACCGATCATCCAGCCCCAACCCAATCGATGAATTCCGACATGAATGAGCTGAAGATCGCCGCCAAGCGACTCATTAACGACGCCACCAAGGTCGGTGGCCTAGGGTTCGGCACTTCCTTCCTCGAATGGGTTTCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACAAACATGCTGACTTCACTTTTAGTTCCTTATATTTTCTTTAGTCTTCCGT-CAGTCTTGTTCAACTTCTTAAGAGGAGAGTTTGGGAAATGGGTTACTTTCATTGCAGTTGTACTAAGGCTTTTCTTCCCTCGCTATTTCCCGGACTGGCTGGAGATGCCCGGGTCGTTGATTCTTCTTCTGGTAGTTGCTCCAAACTTCTTTGCACACACCCTACGGGAGAACTGGGTCGGCGTCTTTA-TATGTCTTATTATTGGTTGTTATCTGCTGCAAGAACACATCAGGGCATCCGGTGGATTCAGAAATTCCTTCACACAAACCAATGGTATATCTAACACACTCGGCATTATCCTT",
+                                    "midline": "|||||||||||||  ||||| |||| ||||| ||||| || |||||    |||    |  |   |||  ||||||| || |||||||| || || ||  | | | | ||||| || || || |  | | |||||      ||||| ||||||   |||||| ||||| |  ||| | |||| ||||||||||||||||||||||||||||||||||||||||| |||||||| || ||||||||||| ||||| || ||| | |||||||| | | | |   |||| | | || ||||| ||| | ||||||||| || |  |||||||||| ||  ||||||| ||||||   ||  ||||||| |  |||||||| ||||| || |||||||| || || ||||| || || ||| |||||||| ||||||   |   ||||| |||| ||||  |    | ||||  |    || || ||| | ||| |||||||||| ||||| ||  | ||||| ||  | |||||||||||||| | | | || |  | ||||||| | ||  ||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 43,
+                            "description": [
+                                {
+                                    "id": "gi|2537663858|ref|XM_021815584.2|",
+                                    "accession": "XM_021815584",
+                                    "title": "PREDICTED: Hevea brasiliensis cold-regulated 413 plasma membrane protein 2 (LOC110658100), mRNA",
+                                    "taxid": 3981,
+                                    "sciname": "Hevea brasiliensis"
+                                }
+                            ],
+                            "len": 945,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 332.204,
+                                    "score": 367,
+                                    "evalue": 1.54002e-85,
+                                    "identity": 434,
+                                    "query_from": 64,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 229,
+                                    "hit_to": 814,
+                                    "hit_strand": "Plus",
+                                    "align_len": 595,
+                                    "gaps": 12,
+                                    "qseq": "AAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCG--GTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAATGGGGAGG---ATGGAGTACTTGAAAATGAGTACTGATCAAGTACC---GGCCGATTTGATCAAGTCTGATCTCAACGAGCTCAAGGTTGCTGCCAAGCGACTCATCAATGATGCCACTAGGCTTGGCGGCCTT--GGCTTTGGTACTTCTTTTCTCAAATGGGTTGCTTCTTTTGCTGCCATATATTTGCTGATATTGGATCGGACAAACTGGAGAACAAACATGCTGACTTCTCTCTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCAGTAATATTCAATTTCTTAAGAGGTGAGGTCGGAAAATGGATTGCTTTCATTGCAGTGGTGCTTAGGCTTTTCTTTCCTCGACACTTCCCAGATTGGCTGGAGATGCCAGGATCATTGATACTTCTTCTGGTTGTGGCTCCCAGTTTCTTCGCGCACACCTTGAAGGACAGCTGGGTTGGTGTCTTGA-TATGCCTCTTGATTGGTTGTTACCTACTGCAAGAGCACATCAGGGCATCTGGTGGATTCAGAAACTCCTTCACACAATCCCATGGAATATCAAACACTGTTGGCATTATCTTGCTGTTGGTTTACCCAGTATG",
+                                    "midline": "||||||||||    ||| ||||||||   ||||  ||||||||| |  |   |||  || ||||| | || ||| |||| ||||| ||  | ||  | | | | |||||||||||||| | || ||| |  | | ||  || ||||| |||  ||| ||||||||| | || |   |||| || || || ||| ||||||||||||| |||||||||||||| |||||||| || || || |||||||||||||| ||| | |||||||| || |    |||  || | || ||||| |||||||| |||||||||||  |||||||||| ||| | ||||| |||||    || || ||||||| ||||||||| ||||| ||||| |||||||| || ||||| ||||| ||    |||||  | ||||   ||||||| |||||| | ||  |    | ||||  |   ||| || ||| ||||  ||||||| || ||||| ||  ||||||| ||  | || |||||||||||   ||| ||||  |  |||||  ||||  ||||| | ||  ||| |||||| || ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 44,
+                            "description": [
+                                {
+                                    "id": "gi|1860377399|ref|XM_035077205.1|",
+                                    "accession": "XM_035077205",
+                                    "title": "PREDICTED: Populus alba cold-regulated 413 plasma membrane protein 2-like (LOC118063227), transcript variant X1, mRNA",
+                                    "taxid": 43335,
+                                    "sciname": "Populus alba"
+                                }
+                            ],
+                            "len": 1109,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 331.303,
+                                    "score": 366,
+                                    "evalue": 1.54002e-85,
+                                    "identity": 434,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 276,
+                                    "hit_to": 865,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAAT-TGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGGTAATTTAATTGAGTCCGATGTCAATGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGTCGCTAAGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATGGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGAGAGCGTGGTCGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTCTTGCAAGAGCACATCCGGGCATCTGGTGGATTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   | |||| | || || |||||| |||||||||| ||  | ||  | | ||  |||||||| ||||    || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| | ||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   |||||||||||  | ||||  | | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 45,
+                            "description": [
+                                {
+                                    "id": "gi|1860377401|ref|XM_035077206.1|",
+                                    "accession": "XM_035077206",
+                                    "title": "PREDICTED: Populus alba cold-regulated 413 plasma membrane protein 2-like (LOC118063227), transcript variant X2, mRNA",
+                                    "taxid": 43335,
+                                    "sciname": "Populus alba"
+                                }
+                            ],
+                            "len": 916,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 331.303,
+                                    "score": 366,
+                                    "evalue": 1.54002e-85,
+                                    "identity": 434,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 83,
+                                    "hit_to": 672,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAAT-TGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGGTAATTTAATTGAGTCCGATGTCAATGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGTCGCTAAGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCTATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATGGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGAGAGCGTGGTCGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTCTTGCAAGAGCACATCCGGGCATCTGGTGGATTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   | |||| | || || |||||| |||||||||| ||  | ||  | | ||  |||||||| ||||    || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | |||| |||||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| | ||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   |||||||||||  | ||||  | | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 46,
+                            "description": [
+                                {
+                                    "id": "gi|2645357626|ref|XM_062094449.1|",
+                                    "accession": "XM_062094449",
+                                    "title": "PREDICTED: Populus nigra cold-regulated 413 plasma membrane protein 2-like (LOC133673573), mRNA",
+                                    "taxid": 3691,
+                                    "sciname": "Populus nigra"
+                                }
+                            ],
+                            "len": 1175,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 331.303,
+                                    "score": 366,
+                                    "evalue": 1.54002e-85,
+                                    "identity": 434,
+                                    "query_from": 63,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 292,
+                                    "hit_to": 881,
+                                    "hit_strand": "Plus",
+                                    "align_len": 596,
+                                    "gaps": 9,
+                                    "qseq": "AAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAAT-TGCAATTATG--ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "AAAATGGGGAGG---ATGGAGTTTTTGAAGATGAAGACTGATGATGAAGTCAGCGCTAATTTAATTGAGTCCGATGTCAATGAGCTCAAGGTTGCTGCTAAGAAACTCATCAAGGATGCCGCTAAGCTTGGTGGCTTGGGGTTTGGTACCTCTTTTCTCAAATGGGTTGCCTCCTTCGCTGCCATTTATTTGTTGATATTGGACCGGACAAACTGGAGATCCAACATGCTGACTTCACTTTTAGTCCCTTACATTTTCTTTAGTCTTCCTTCTGTACTATTTAACTTCTTCAGAGGGGAAGTTGGAAGGTGGATTGCTTTTGTTGCAGTGGTTCTCAGGCTCTTCTTCCCACGACATTTTCCAGATTGGCTGGAGATGCCAGGATCAATAATTCTTCTTCTGGTTGTGGCTCCAAATTTCTTTGCACACACCTTGAAGGGGAGCGTGGTCGGTGTCTTCA--TATGCCTTATC-ATTGCTTGTTACCTATTGCAAGAGCACATCCGGGCATCTGGTGGATTCAGAAATTCGTTTACACAGCCCCATGGAATATCAAACACTGTTGGGATTATCCTTCTGATAGTTTATCCTGTGTG",
+                                    "midline": "|||||||||||    ||| |||  |||   ||||| |||||| |    | |   |||||| | || || |||||| |||||||||| ||  | ||  | | ||  |||||||| |||||   || ||| |||   |  |||||||| ||   ||| ||||||||| | |||| | | || || ||||| |||||||||||||| || |||||||||||| |||||||||| || |||||||||||||||||||| ||| | |||||||| || |  | |||| |  | |||||||| || || || |  ||||||||  |  ||||||| ||  | ||||| ||||||   || ||||| |||| ||||||||| ||||| |||||  | || || || ||||| ||||| ||| | |||||| ||||||   |||||| ||||  | ||||  | | ||  ||||   || | || |  ||| ||||  ||||||| || ||| | ||  ||||||| ||  | ||||| || ||||||  ||| ||||  |  |||||  ||||| ||||||||||  | | ||| ||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 47,
+                            "description": [
+                                {
+                                    "id": "gi|1162571918|ref|XM_007202530.2|",
+                                    "accession": "XM_007202530",
+                                    "title": "PREDICTED: Prunus persica cold-regulated 413 plasma membrane protein 2 (LOC18770198), transcript variant X1, mRNA",
+                                    "taxid": 3760,
+                                    "sciname": "Prunus persica"
+                                }
+                            ],
+                            "len": 811,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 328.598,
+                                    "score": 363,
+                                    "evalue": 1.87612e-84,
+                                    "identity": 394,
+                                    "query_from": 124,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 157,
+                                    "hit_to": 688,
+                                    "hit_strand": "Plus",
+                                    "align_len": 533,
+                                    "gaps": 2,
+                                    "qseq": "TGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGATAAATTCAGACATCAATGATCTCAAGATTGCAGCCAAGAAACTCATCAATGATGCCACTAAGCTTGGTGGGTTGGGTTTTGGGACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCCATATATCTGTTGATATTGGATCGAACCAACTGGAGAACAAATATGCTGACTTCACTTTTAATCCCTTACATTTTCTTCAGTCTTCCTTCAGTGCTCTTCAACCCCCTAAGAGGAGAGGTTGGAAAATGGATTGCTTTTATTGCTGTTGTACTGAGGCTTTTCTTCCCAAGACATTTCCCAGATTGGCTACAGATGCCCGGTTCGTTGATCCTTCTTCTTGTTGTGGCTCCCAACTTTTTCGCGCACACATTGAAGGACAGCTGGGTTGGTGTCTTGA-TATGTCTTCTCATTGGTTGTTACCTGCTGCAAGAGCACATCCGGGCTTCAGGTGGCTTCAGAAATTCCTTCACACAGAGCCATGGAATATCAAACACTCTAGGAATTATCCTTCTCTTAGTCTACCCTGTTTG",
+                                    "midline": "||||  |||| || |||||||| || || || ||| | | ||  |||||||||||||| | || ||| |||   |  || ||||| |||  ||| ||||||||| | |||| | |||| || || ||  ||||||||||||||||||| ||||||||||| || ||||| || ||||||||| |||||||||| ||| |||||||||| || | ||  ||  | |   | ||||| ||||| || |||||||||||  | ||||| || ||  | ||||| ||||||    | |||||||||| ||||||  | ||||| || |||||||| || || || || ||||| ||  |||| ||  | |||| | ||||||| |||||| | ||  |    | ||||  |    || || ||| ||||| ||||||| || ||| | ||  | ||||||||  | |||||||||||||||||||| ||||  |  |||||  | ||  ||||||||||  | |  |||||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 48,
+                            "description": [
+                                {
+                                    "id": "gi|1162571919|ref|XM_020568695.1|",
+                                    "accession": "XM_020568695",
+                                    "title": "PREDICTED: Prunus persica cold-regulated 413 plasma membrane protein 2 (LOC18770198), transcript variant X2, mRNA",
+                                    "taxid": 3760,
+                                    "sciname": "Prunus persica"
+                                }
+                            ],
+                            "len": 929,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 328.598,
+                                    "score": 363,
+                                    "evalue": 1.87612e-84,
+                                    "identity": 394,
+                                    "query_from": 124,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 275,
+                                    "hit_to": 806,
+                                    "hit_strand": "Plus",
+                                    "align_len": 533,
+                                    "gaps": 2,
+                                    "qseq": "TGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "TGATAAATTCAGACATCAATGATCTCAAGATTGCAGCCAAGAAACTCATCAATGATGCCACTAAGCTTGGTGGGTTGGGTTTTGGGACTTCTTTTCTCAAATGGGTTGCCTCCTTTGCTGCCATATATCTGTTGATATTGGATCGAACCAACTGGAGAACAAATATGCTGACTTCACTTTTAATCCCTTACATTTTCTTCAGTCTTCCTTCAGTGCTCTTCAACCCCCTAAGAGGAGAGGTTGGAAAATGGATTGCTTTTATTGCTGTTGTACTGAGGCTTTTCTTCCCAAGACATTTCCCAGATTGGCTACAGATGCCCGGTTCGTTGATCCTTCTTCTTGTTGTGGCTCCCAACTTTTTCGCGCACACATTGAAGGACAGCTGGGTTGGTGTCTTGA-TATGTCTTCTCATTGGTTGTTACCTGCTGCAAGAGCACATCCGGGCTTCAGGTGGCTTCAGAAATTCCTTCACACAGAGCCATGGAATATCAAACACTCTAGGAATTATCCTTCTCTTAGTCTACCCTGTTTG",
+                                    "midline": "||||  |||| || |||||||| || || || ||| | | ||  |||||||||||||| | || ||| |||   |  || ||||| |||  ||| ||||||||| | |||| | |||| || || ||  ||||||||||||||||||| ||||||||||| || ||||| || ||||||||| |||||||||| ||| |||||||||| || | ||  ||  | |   | ||||| ||||| || |||||||||||  | ||||| || ||  | ||||| ||||||    | |||||||||| ||||||  | ||||| || |||||||| || || || || ||||| ||  |||| ||  | |||| | ||||||| |||||| | ||  |    | ||||  |    || || ||| ||||| ||||||| || ||| | ||  | ||||||||  | |||||||||||||||||||| ||||  |  |||||  | ||  ||||||||||  | |  |||||||| ||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 49,
+                            "description": [
+                                {
+                                    "id": "gi|2583747300|ref|XM_059787294.1|",
+                                    "accession": "XM_059787294",
+                                    "title": "PREDICTED: Cornus florida cold-regulated 413 plasma membrane protein 2-like (LOC132285128), mRNA",
+                                    "taxid": 4283,
+                                    "sciname": "Cornus florida"
+                                }
+                            ],
+                            "len": 1126,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 327.696,
+                                    "score": 362,
+                                    "evalue": 1.87612e-84,
+                                    "identity": 424,
+                                    "query_from": 61,
+                                    "query_to": 637,
+                                    "query_strand": "Plus",
+                                    "hit_from": 237,
+                                    "hit_to": 807,
+                                    "hit_strand": "Plus",
+                                    "align_len": 580,
+                                    "gaps": 12,
+                                    "qseq": "AGAAAATGGGGAGAGAAATGAAGTACTTGGCCATGAAAACTGATCAATTGGCCGTGGCTAATATGATCGATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGT--CATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTCATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCT",
+                                    "hseq": "AGAAAATGGGGAGAAA---GGAGTATTTGGCTATGAAAACTGATCC---GGCCACAGCCGAATTGATCAATTCCGACATCAATGACCTGAAGATGGCTGCCAAGAATCTCATTAATCATGCCACCAAGCTTGGAGGCCTT--GGGGTCGGCACTTCTGTCTTCAAATGGATTGCCTCCTTTGCTGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGGACAAATATGCTGACTTCACTTTTAATCCCTTATATTTTCTTTAGCCTTCCTTCGTTGTTGTTCAACGTGCTAAGAGGAGAAGTTGGAAAATGGATTGCCTTCATTGCAGTTGTACTCAGACTCTTCTTCCCACGACATTTCCCAGATTGGCTGGAGATGCCTGGGTCGTTGATTCTTCTTTTGGTGGTTGCTCCCAGCTTTTTCGCAAGCACCCTGAGGGACAATTTGGTCGGCATCGTGA-TATGTCTCCTCATTGGTTGTTACCTGCTGCAAGAACACATTCGGGCGTCCGGTGGATTCAGAAATTCATTCACACAAACCCATGGGATATCAAATACAGTTGGGATTATCCTTCT",
+                                    "midline": "|||||||||||||| |   | |||| ||||| |||||||||||||    ||||   ||  |  ||||| ||||||| |||||||| || || |||||  | | ||  ||||| ||| |||| |  | ||| ||   | ||  ||| | ||||||  | || |||||||| | |||| | |||| |||||||||||||||||||||||||||||||||||||| || || ||||| || ||||||||| ||||||| || ||| | || ||||| ||   |   ||  |  || | ||||| || || || |||||||||||| |||||||||| ||  | || || ||||||   || |||||||||| ||||||||| |||||||| |||||||| || ||  ||||||| || ||   ||| ||  ||  ||   ||| ||| |  | | |||| || |  | ||||  |    || || ||| ||||| |||||||||| ||  | ||  | ||||| ||  | ||||| |||||||| | ||| || |  |  || ||| ||||| ||||||||||"
+                                }
+                            ]
+                        },
+                        {
+                            "num": 50,
+                            "description": [
+                                {
+                                    "id": "gi|1229761331|ref|XM_022277554.1|",
+                                    "accession": "XM_022277554",
+                                    "title": "PREDICTED: Momordica charantia cold-regulated 413 plasma membrane protein 2-like (LOC111005887), mRNA",
+                                    "taxid": 3673,
+                                    "sciname": "Momordica charantia"
+                                }
+                            ],
+                            "len": 850,
+                            "hsps": [
+                                {
+                                    "num": 1,
+                                    "bit_score": 325.893,
+                                    "score": 360,
+                                    "evalue": 6.54831e-84,
+                                    "identity": 392,
+                                    "query_from": 130,
+                                    "query_to": 655,
+                                    "query_strand": "Plus",
+                                    "hit_from": 124,
+                                    "hit_to": 649,
+                                    "hit_strand": "Plus",
+                                    "align_len": 528,
+                                    "gaps": 4,
+                                    "qseq": "ATTCCGATATCAATGAGCTTAAAATGGCAACAATGAGGCTCATCAATGATGCTAGTATGCTCGGTCATTACGGGTTTGGCACTCATTTCCTCAAATGGCTCGCCTGCCTTGCGGCTATTTACTTGTTGATATTGGATCGAACAAACTGGAGAACCAACATGCTCACGTCACTTTTAGTCCCTTACATATTCCTCAGTCTTCCATCCGGGCCATTTC-ATCTGTTCAGAGGCGAGGTCGGGAAATGGATTGCCATCATTGCAGTCGTGTTAAGGCTGTTCTTCAACCGGCATTTCCCAGTTTGGCTGGAAATGCCTGGATCGTTGATACTCCTCCTGGTGGTGGCACCAGACTTCTTTACACACAAAGTGAAGGAGAGCTGGATCGGAATTGCAATTATG-ATAGCGATAGGGTGTCACCTGATGCAAGAACATATCAGAGCCACTGGTGGCTTTTGGAATTCCTTCACACAGAGCCACGGAACTTTTAACACAATTGGGCTTATCCTTCTACTGGCTTACCCTGTCTG",
+                                    "hseq": "ATTCTGATATCAACGAGCTTAAAATTGCAGCCACGAGGCTTCTTGAACATGCCACCAAGCTCGGTGGAAAGGGCCTTGGCACTTCTTTTTTCAAATGGCTTGCTTCCTTTGCTGCCATTTACTTGTTGATTTTGGATCGCACAAACTGGAGAACGAATATGCTTACTTCACTTCTAGTCCCTTACATTTTCTTCAGCCTTCC-TCAAGGGATTTTCGACTTGTTGAGAGAGGATGCTGGGAAATGGATTGCCTTCGTTGCAGTGGTATTGAGGCTCTTCTTCCCACGACATTTCCCAGATTGGCTGGAGATTCCAGGGTCGTTGATTCTGCTTGTGGTGGCAGCACCAGGGTTCTTTGCCCACACATTGAAAGACCACTGG-GCGGGAGTGGTTATATGTTTGGTAATTGGATGCTACCTTCTACAAGAGCACATTCGTGCCTCTGGTGGCTTCAGAAACTCCCTCACTCAGAGCCATGGAATTTCCAACACCATTGGCATCATCCTCCTCTTTGTTTTCCCTGTTTG",
+                                    "midline": "|||| |||||||| ||||||||||| ||| | | ||||||  |  |  |||| |  | |||||||    | ||  ||||||||  |||  |||||||||| || | | |||| || |||||||||||||| |||||||| |||||||||||||| || ||||| || |||||| ||||||||||||| ||| |||| ||||| ||  ||   |||| |  |||| ||||  || |  ||||||||||||||| || ||||||| || || ||||| ||||||   || |||||||||| ||||||||| || || || |||||||| || ||  ||||||  |||||||  |||||| | |||| | |||| ||   ||||  ||| | ||    ||||  | |  || || ||  ||||  | ||||| || ||  | ||| ||||||||||  | || ||| |||| |||||||| |||| ||  ||||| |||||  | ||||| ||  | | || |||||| ||"
+                                }
+                            ]
+                        }
+                    ],
+                    "stat": {
+                        "db_num": 109874994,
+                        "db_len": 780310604711,
+                        "hsp_len": 40,
+                        "eff_space": 831005612902521,
+                        "kappa": 0.41,
+                        "lambda": 0.625,
+                        "entropy": 0.78
+                    }
+                }
+            }
+        }
+    }
+}
