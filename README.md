@@ -1,6 +1,6 @@
 # Demo_Nonaworks_24_Problem_1
 
-This demo is for Nonaworks Hackathon 2024 - Team CellBit:star_struck:
+This demo is for Nonaworks Hackathon 2024 - Team CellBit :star_struck:
 
 #### Install the required dependencies
 
@@ -20,4 +20,4 @@ python api.py
 python test_api.py
 ```
 
-Note: In this hackathon, we focused on the Lattice Automation MPI track. We integrated NCBI BLAST and a pretrained language model (ProtBert) into the MPI dashboard. Please refer to Lattice's official webiste (https://latticeautomation.com/) for more details. 
+Note: In this hackathon, we focused on the Lattice Automation MPI track. We integrated NCBI BLAST and a pretrained language model (ProtBert) into the MPI dashboard. Please refer to Lattice's official website (https://latticeautomation.com/) for more details. 
