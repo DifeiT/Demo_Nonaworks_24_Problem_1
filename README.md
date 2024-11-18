@@ -2,7 +2,7 @@
 
 This demo is for Nonaworks Hackathon 2024 - Team CellBit :star_struck:
 
-#### Install the required dependencies
+### Install the required dependencies
 
 ```
 pip install -r requirements.txt
