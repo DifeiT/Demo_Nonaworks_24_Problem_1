@@ -5,7 +5,7 @@ import zipfile
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from flurescent import predict_flurescent
-
+from fastapi.middleware.cors import CORSMiddleware
 class BlastAPI:
     def __init__(self, email: str):
         """Initialize the BLAST API with user email"""
@@ -81,6 +81,14 @@ app = FastAPI(
     title="BLAST/ProtBERT API",
     description="API for performing BLAST search and ProtBERT inference",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
 )
 
 # Define request model
