@@ -98,7 +98,7 @@ class BlastSearchRequest(BaseModel):
 class probertInferenceRequest(BaseModel):
     prot_seq: str
 
-@app.get("/blast/search")
+@app.post("/blast/search")
 async def api_blast_search(request: BlastSearchRequest):
     """
     API endpoint to perform BLAST search
@@ -116,7 +116,7 @@ async def api_blast_search(request: BlastSearchRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-@app.get("/protbert/inference")
+@app.post("/protbert/inference")
 async def api_probert_inference(request: probertInferenceRequest):
     """
     API endpoint to perform ProtBERT inference
