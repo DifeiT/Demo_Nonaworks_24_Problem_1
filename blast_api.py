@@ -2,6 +2,8 @@ from Bio import Blast
 from io import BytesIO
 import json
 import zipfile
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 
 class BlastAPI:
     def __init__(self, email: str):
@@ -23,8 +25,17 @@ class BlastAPI:
                 data = stream.read().decode()
                 d = json.loads(data)
 
+                # FIXME: hard-coded here just for demo 
+                d = d["BlastOutput2"]["report"]["results"]["search"]
+                d["hits"] = d["hits"][:5]
+
+                # FIXME: save in local json file for debugging
                 with open(fname, "w") as f:
                     json.dump(d, f, indent=4)
+
+                return d
+            
+
         
     def search_sequence(
         self,
@@ -59,11 +70,41 @@ def run_blast_search(sequence_id: str):
     Args:
         sequence_id: The sequence ID to search
     """
+    print('start query: ')
     blast = BlastAPI('DIT18@pitt.edu')
     results = blast.search_sequence(sequence_id)
     return results
 
+# Initialize FastAPI app
+app = FastAPI(
+    title="BLAST Search API",
+    description="API for performing BLAST search",
+    version="1.0.0"
+)
+
+# Define request model
+class BlastSearchRequest(BaseModel):
+    seq_id: str
+
+@app.get("/blast/search")
+async def api_blast_search(request: BlastSearchRequest):
+    """
+    API endpoint to perform BLAST search
+    
+    Args:
+        request: BlastSearchRequest containing sequence_id
+        
+    Returns:
+        JSON: BLAST search results
+    """
+    try:
+        print(request.seq_id)
+        results = run_blast_search(request.seq_id)
+        return results
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 if __name__ == "__main__":
-    # test 
-    print("start testing:")
-    run_blast_search("8332116")
+    # For local development, you can use uvicorn to run the API
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
